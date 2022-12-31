@@ -1,24 +1,17 @@
 {
   "name": "@newlevelup/release-config",
-  "description": "New Level Up shareable config for semantic-release",
   "version": "1.0.0",
-  "author": "New Level Up <hello@newlevelup.co>",
-  "license": "ISC",
   "private": false,
+  "license": "ISC",
+  "description": "New Level Up shareable config for semantic-release",
+  "author": "New Level Up <hello@newlevelup.co>",
+  "homepage": "https://github.com/newlevelup/config/tree/main/packages/release-config#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/newlevelup/config.git",
     "directory": "packages/release-config"
   },
-  "homepage": "https://github.com/newlevelup/config/tree/main/packages/release-config#readme",
-  "bugs": {
-    "url": "https://github.com/newlevelup/config/issues"
-  },
-  "keywords": [
-    "newlevelup",
-    "config",
-    "release"
-  ],
+  "bugs": "https://github.com/newlevelup/config/issues",
   "main": "index.js",
   "files": [
     "npm-multiple.js"
@@ -37,5 +30,10 @@
   },
   "peerDependencies": {
     "semantic-release": "19.0.5"
-  }
+  },
+  "keywords": [
+    "config",
+    "newlevelup",
+    "release"
+  ]
 }

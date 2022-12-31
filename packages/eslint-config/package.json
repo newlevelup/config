@@ -1,32 +1,25 @@
 {
   "name": "@newlevelup/eslint-config",
-  "description": "New Level Up shareable config for ESLint",
   "version": "1.0.2",
-  "author": "New Level Up <hello@newlevelup.co>",
-  "license": "ISC",
   "private": false,
+  "license": "ISC",
+  "description": "New Level Up shareable config for ESLint",
+  "author": "New Level Up <hello@newlevelup.co>",
+  "homepage": "https://github.com/newlevelup/config/tree/main/packages/eslint-config#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/newlevelup/config.git",
     "directory": "packages/eslint-config"
   },
-  "homepage": "https://github.com/newlevelup/config/tree/main/packages/eslint-config#readme",
-  "bugs": {
-    "url": "https://github.com/newlevelup/config/issues"
-  },
-  "keywords": [
-    "newlevelup",
-    "config",
-    "eslint"
-  ],
-  "main": "index.js",
   "publishConfig": {
     "access": "public"
   },
+  "bugs": "https://github.com/newlevelup/config/issues",
+  "main": "index.js",
+  "files": [],
   "scripts": {
     "test": "eslint --format tap __tests__"
   },
-  "files": [],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "5.47.1",
     "@typescript-eslint/parser": "5.47.1",
@@ -54,6 +47,11 @@
     "eslint": "8.31.0",
     "prettier": "2.8.1"
   },
+  "keywords": [
+    "config",
+    "eslint",
+    "newlevelup"
+  ],
   "eslintConfig": {
     "root": true,
     "extends": "."
