@@ -1,4 +1,4 @@
-# release-config [![NPM version](https://img.shields.io/npm/v/@newlevelup/release-config.svg)](https://www.npmjs.com/package/@newlevelup/release-config)
+# [release-config]() [![NPM version](https://img.shields.io/npm/v/@newlevelup/release-config.svg)](https://www.npmjs.com/package/@newlevelup/release-config)
 
 New Level Up [shareable config](https://semantic-release.gitbook.io/semantic-release/usage/shareable-configurations) for [semantic-relase](https://semantic-release.gitbook.io/)
 
