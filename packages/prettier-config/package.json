@@ -16,9 +16,6 @@
   },
   "main": "prettier.config.js",
   "files": [],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "test": "prettier --config prettier.config.js --loglevel debug --check __tests__"
   },

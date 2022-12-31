@@ -16,9 +16,6 @@
   },
   "main": "stylelint.config.js",
   "files": [],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "test": "stylelint --config stylelint.config.js --formatter tap __tests__"
   },

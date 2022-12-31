@@ -16,9 +16,6 @@
   },
   "main": "commitlint.config.js",
   "files": [],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "test": "echo 'No test specified'"
   },

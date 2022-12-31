@@ -18,9 +18,6 @@
   "files": [
     ".editorconfig"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "postinstall": "node ./index.js",
     "test": "echo 'No test specified'"

@@ -14,9 +14,6 @@
   "bugs": {
     "url": "https://github.com/newlevelup/config/issues"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "files": [],
   "scripts": {
     "test": "renovate-config-validator"
