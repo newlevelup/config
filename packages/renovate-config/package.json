@@ -1,7 +1,7 @@
 {
   "name": "@newlevelup/renovate-config",
   "description": "New Level Up shareable config for Renovate",
-  "version": "1.8.0",
+  "version": "1.0.0",
   "author": "New Level Up <hello@newlevelup.co>",
   "license": "ISC",
   "private": false,
