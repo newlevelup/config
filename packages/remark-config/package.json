@@ -1,0 +1,45 @@
+{
+  "name": "@newlevelup/remark-config",
+  "version": "1.0.0",
+  "private": false,
+  "license": "ISC",
+  "description": "New Level Up shareable config for remark",
+  "author": "New Level Up <hello@newlevelup.co>",
+  "homepage": "https://github.com/newlevelup/config/tree/main/packages/remark-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newlevelup/config.git",
+    "directory": "packages/remark-config"
+  },
+  "bugs": "https://github.com/newlevelup/config/issues",
+  "type": "module",
+  "main": "index.js",
+  "files": [],
+  "scripts": {
+    "test": "remark -r index.js __tests__ -o __tests__/generated-output.md"
+  },
+  "dependencies": {
+    "remark-frontmatter": "4.0.1",
+    "remark-lint-fenced-code-flag": "3.1.1",
+    "remark-lint-list-item-indent": "3.1.1",
+    "remark-lint-no-duplicate-headings": "3.1.1",
+    "remark-lint-no-file-name-irregular-characters": "2.1.1",
+    "remark-lint-no-undefined-references": "4.2.0",
+    "remark-preset-lint-consistent": "5.1.1",
+    "remark-preset-lint-markdown-style-guide": "5.1.2",
+    "remark-preset-lint-recommended": "6.1.2",
+    "remark-preset-prettier": "2.0.1",
+    "remark-toc": "8.0.1",
+    "remark-validate-links": "12.1.0"
+  },
+  "peerDependencies": {
+    "remark": "14.0.2",
+    "remark-cli": "11.0.0"
+  },
+  "keywords": [
+    "config",
+    "md",
+    "newlevelup",
+    "remark"
+  ]
+}
