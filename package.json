@@ -62,7 +62,7 @@
   },
   "prettier": "@newlevelup/prettier-config",
   "release": {
-    "extends": "@newlevelup/release-config/npm-multiple",
+    "extends": "@newlevelup/release-config",
     "branches": [
       "main"
     ]
