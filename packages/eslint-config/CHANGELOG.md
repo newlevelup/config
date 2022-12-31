@@ -1,3 +1,10 @@
+## @newlevelup/eslint-config [1.0.3](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.2...@newlevelup/eslint-config@1.0.3) (2022-12-31)
+
+
+### Bug Fixes
+
+* update package.json using syncpack ([4afa810](https://github.com/newlevelup/config/commit/4afa810624c2b0b8483a9c07de1f7b9e4628c5b3))
+
 ## @newlevelup/eslint-config [1.0.2](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.1...@newlevelup/eslint-config@1.0.2) (2022-12-31)
 
 
