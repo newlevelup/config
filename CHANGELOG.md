@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/newlevelup/config/compare/v1.0.0...v1.1.0) (2022-12-31)
+
+
+### Features
+
+* update workflow to node v19 ([15f33c2](https://github.com/newlevelup/config/commit/15f33c244ccaa8ee1be9e26ee698c2cfbd5e8d9d))
+
 # 1.0.0 (2022-12-31)
 
 
