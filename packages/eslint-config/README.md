@@ -4,6 +4,8 @@ New Level Up [shareable config](https://eslint.org/docs/developer-guide/shareabl
 
 ## Installation
 
+> :bulb: The purpose of `eslint` is to lint `javascript` and `typescript` files such that it conforms your organization practice. Its also performs automated scans of your files for common syntax, style errors and potential organization based code rule violations.
+
 Install ESLint and `@newlevelup/eslint-config`:
 
 ```sh

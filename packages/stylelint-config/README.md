@@ -4,6 +4,10 @@ New Level Up [shareable config](https://stylelint.io/user-guide/configuration#ex
 
 ## Installation
 
+> :bulb: The purpose of `stylelint` is to style and format your `css`,
+`sass`, `scss` files. This takes cares of new style conventions and warns about
+old deprecated style rules.
+
 Install stylelint and `@newlevelup/stylelint-config`:
 
 ```sh

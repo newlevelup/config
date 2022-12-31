@@ -4,6 +4,8 @@ New Level Up [shareable config](https://commitlint.js.org/#/concepts-shareable-c
 
 ## Installation
 
+> 💡 The purpose of the `commitlint` is to lint commit messages such that it conforms to the [conventional commit format](https://www.conventionalcommits.org/en/v1.0.0/) such that it is machine readable. ex. `<type>[optional scope]: <description>`
+
 Install `@newlevelup/commitlint-config`:
 
 ```sh

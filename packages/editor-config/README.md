@@ -4,6 +4,8 @@ New Level Up [shareable config](https://editorconfig.org/#example-file) for [Edi
 
 ## Installation
 
+> 💡 The purpose of `editorconfig` is to define common code rules for your preferred text-editor and text-editor plugins to adhere when writing and saving codes.
+
 Install stylelint and `@newlevelup/editor-config`:
 
 ```sh

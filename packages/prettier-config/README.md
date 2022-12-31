@@ -4,6 +4,8 @@ New Level Up [shareable config](https://prettier.io/docs/en/configuration.html#s
 
 ## Installation
 
+> 💡 The purpose of the `prettier` is to format your code's style issues so that the developers conforms to your organizations code formatting norm. It automatically reformats your code to ensure consistent rules are being followed for indentation, spacing, semicolons, single quotes vs double quotes, etc.
+
 Install Prettier and `@newlevelup/prettier-config`:
 
 ```sh
