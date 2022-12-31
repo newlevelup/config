@@ -28,6 +28,7 @@
   },
   "renovate-config": {
     "default": {
+      "$schema": "https://docs.renovatebot.com/renovate-schema.json",
       "extends": [
         "config:base"
       ],
@@ -67,6 +68,7 @@
         "yarnDedupeHighest"
       ],
       "prCreation": "not-pending",
+      "rebaseWhen": "conflicted",
       "reviewers": [
         "team:@newlevelup/reviewers"
       ]
