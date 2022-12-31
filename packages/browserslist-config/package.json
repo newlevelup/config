@@ -1,0 +1,25 @@
+{
+  "name": "@newlevelup/browserslist-config",
+  "version": "1.0.0",
+  "private": false,
+  "license": "ISC",
+  "description": "New Level Up shareable config for Browserslist",
+  "author": "New Level Up <hello@newlevelup.co>",
+  "homepage": "https://github.com/newlevelup/config/tree/main/packages/browserslist-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newlevelup/config.git",
+    "directory": "packages/browserslist-config"
+  },
+  "bugs": "https://github.com/newlevelup/config/issues",
+  "main": "browserslist.config.js",
+  "files": [],
+  "scripts": {
+    "test": "echo 'No test specified'"
+  },
+  "keywords": [
+    "browserslist",
+    "commitlint",
+    "config"
+  ]
+}

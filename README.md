@@ -2,6 +2,7 @@
 
 New Level Up shareable configs:
 
+- :package: 🎈 [`browserslist-config`](packages/browserslist-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/browserslist-config.svg)](https://www.npmjs.com/package/@newlevelup/browserslist-config)
 - :package: :speech\_balloon: [`commitlint-config`](packages/commitlint-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/commitlint-config.svg)](https://www.npmjs.com/package/@newlevelup/commitlint-config)
 - :package: :writing\_hand: [`editor-config`](packages/editor-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/editor-config.svg)](https://www.npmjs.com/package/@newlevelup/editor-config)
 - :package: :hammer\_and\_wrench: [`eslint-config`](packages/eslint-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/eslint-config.svg)](https://www.npmjs.com/package/@newlevelup/eslint-config)

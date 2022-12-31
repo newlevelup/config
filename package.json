@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "17.3.0",
+    "@newlevelup/browserslist-config": "*",
     "@newlevelup/commitlint-config": "*",
     "@newlevelup/editor-config": "*",
     "@newlevelup/eslint-config": "*",
