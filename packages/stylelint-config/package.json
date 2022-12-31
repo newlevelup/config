@@ -16,6 +16,10 @@
   },
   "main": "stylelint.config.js",
   "files": [],
+  "keywords": [
+    "newlevelup",
+    "stylelint"
+  ],
   "scripts": {
     "test": "stylelint --config stylelint.config.js --formatter tap __tests__"
   },
