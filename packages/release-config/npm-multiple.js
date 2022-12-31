@@ -8,7 +8,6 @@ module.exports = {
     ],
     '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
-    '@semantic-release/github',
     [
       '@amanda-mitchell/semantic-release-npm-multiple',
       {
@@ -18,6 +17,7 @@ module.exports = {
         }
       }
     ],
+    '@semantic-release/github',
     [
       '@semantic-release/git',
       { message: `chore(release): \${nextRelease.gitTag} [skip ci]` }
