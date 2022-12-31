@@ -6,16 +6,11 @@ on:
   pull_request:
     branches:
       - main
-  push:
-    branches:
-      - main
-      - next
-      - next-major
-      - alpha
-      - beta
+    types: [closed]
 
 jobs:
   release:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -28,18 +23,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 19
-          registry-url: "https://npm.pkg.github.com"
-          scope: "newlevelup"
 
       - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v2
         id: semantic
-        with:
-          semantic_version: 18.0.1
-          branch: main
-          extra_plugins: |
-            @semantic-release/git
-            @semantic-release/changelog
+        run: |
+          yarn multi-semantic-release --sequential-init
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PACKAGE_TOKEN }}
           GITHUB_NPM_TOKEN: ${{ secrets.GH_PACKAGE_TOKEN }}

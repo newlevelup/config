@@ -22,15 +22,13 @@ jobs:
         run: yarn lint
 
       - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v2
-        with:
-          semantic_version: 18.0.1
-          dry_run: true
-          branch: main
-          extra_plugins: |
-            @semantic-release/git
-            @semantic-release/changelog
+        run: |
+          yarn multi-semantic-release --sequential-init --dry-run
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PACKAGE_TOKEN }}
+          GITHUB_NPM_TOKEN: ${{ secrets.GH_PACKAGE_TOKEN }}
+          GITHUB_NPM_CONFIG_REGISTRY: https://npm.pkg.github.com/
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          PUBLIC_NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          PUBLIC_NPM_CONFIG_REGISTRY: https://registry.npmjs.org
           NODE_AUTH_TOKEN: ${{ secrets.GH_PACKAGE_TOKEN }}
