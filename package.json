@@ -19,9 +19,6 @@
     "newlevelup",
     "config"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "prepare": "is-ci || husky install",
     "pretest": "yarn lint",
