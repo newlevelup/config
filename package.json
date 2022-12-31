@@ -14,7 +14,8 @@
     "format": "npm-run-all --parallel format:*",
     "format:css": "yarn lint:css --fix",
     "format:js": "yarn lint:js --fix",
-    "format:mismatches": "syncpack fix-mismatches",
+    "format:md": "remark . -o --",
+    "format:mismatches": "syncpack fix-mismatches --filter '@newlevelup'",
     "format:packages": "syncpack format",
     "lint": "npm-run-all --parallel lint:*",
     "lint:css": "stylelint --ignore-path .gitignore '**/*.?(s)css'",
@@ -30,6 +31,7 @@
     "@newlevelup/eslint-config": "*",
     "@newlevelup/prettier-config": "*",
     "@newlevelup/release-config": "*",
+    "@newlevelup/remark-config": "*",
     "@newlevelup/stylelint-config": "*",
     "@newlevelup/syncpack-config": "*",
     "@qiwi/multi-semantic-release": "6.5.1",
@@ -38,6 +40,8 @@
     "is-ci": "3.0.1",
     "npm-run-all": "4.1.5",
     "prettier": "2.8.1",
+    "remark": "14.0.2",
+    "remark-cli": "11.0.0",
     "stylelint": "14.16.1",
     "syncpack": "8.4.11",
     "typescript": "4.9.4"
@@ -64,6 +68,11 @@
     "extends": "@newlevelup/release-config/npm-multiple",
     "branches": [
       "main"
+    ]
+  },
+  "remarkConfig": {
+    "plugins": [
+      "@newlevelup/remark-config"
     ]
   },
   "renovate": {

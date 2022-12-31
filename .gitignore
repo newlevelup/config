@@ -31,3 +31,6 @@ yarn-error.log
 
 # Project specific
 .eslintcache
+
+# test outputs
+packages/**/__tests__/generated-output.md
