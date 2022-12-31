@@ -1,0 +1,33 @@
+# local config for neovim
+.nvimrc
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# exclude log files
+tmp/*[.json, .log]
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Windows
+Thumbs.db
+
+# OsX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Package managers
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Project specific
+.eslintcache
