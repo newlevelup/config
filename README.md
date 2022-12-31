@@ -9,3 +9,9 @@ New Level Up shareable configs:
 - :package: :rocket: [`release-config`](packages/release-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/release-config.svg)](https://www.npmjs.com/package/@newlevelup/release-config)
 - :package: :recycle: [`renovate-config`](packages/renovate-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/renovate-config.svg)](https://www.npmjs.com/package/@newlevelup/renovate-config)
 - :package: :necktie: [`stylelint-config`](packages/stylelint-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/stylelint-config.svg)](https://www.npmjs.com/package/@newlevelup/stylelint-config)
+
+## CI / CD Tools
+
+- 🤖 [Kodiak](https://kodiakhq.com/) to "Automate (our) GitHub Pull Requests"
+- 🤖 [Renovate](https://github.com/renovatebot/renovate) for Patch + Minor Package Management
+- 💯 [syncpack](https://github.com/JamieMason/syncpack) for consistent dependency versions in package.json
