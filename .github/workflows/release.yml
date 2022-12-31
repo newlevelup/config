@@ -6,11 +6,16 @@ on:
   pull_request:
     branches:
       - main
-    types: [closed]
+  push:
+    branches:
+      - main
+      - next
+      - next-major
+      - alpha
+      - beta
 
 jobs:
   release:
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

@@ -18,7 +18,7 @@ jobs:
 
     strategy:
       matrix:
-        node: ['18.x', '19.x']
+        node: ['19.x']
         os: [ubuntu-latest]
 
     steps:
