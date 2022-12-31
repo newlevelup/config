@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   pull_request:
     branches:
-      - main
+      - '*'
   push:
     branches:
       - main
@@ -21,13 +21,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install deps and build (with cache)
-        uses: bahmutov/npm-install@v1.8.7
-
       - name: Use Node.js 19.x
         uses: actions/setup-node@v3
         with:
           node-version: 19
+          registry-url: "https://npm.pkg.github.com"
+          scope: "newlevelup"
+
+      - name: Install deps and build (with cache)
+        uses: bahmutov/npm-install@v1.8.7
+        with:
+          install-command: yarn --frozen-lockfile --ignore-scripts
 
       - name: Semantic Release
         id: semantic
