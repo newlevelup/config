@@ -6,7 +6,7 @@ New Level Up [shareable config](https://stylelint.io/user-guide/configuration#ex
 
 Install stylelint and `@newlevelup/stylelint-config`:
 
-```
+```sh
 yarn add -D stylelint @newlevelup/stylelint-config
 ```
 
@@ -35,12 +35,12 @@ Now you can run stylelint by adding the following scripts to your `package.json`
 
 Lint it:
 
-```
+```sh
 yarn lint:css
 ```
 
 Format it:
 
-```
+```sh
 yarn format:css
 ```
