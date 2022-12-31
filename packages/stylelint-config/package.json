@@ -1,0 +1,38 @@
+{
+  "name": "@newlevelup/stylelint-config",
+  "description": "New Level Up shareable config for stylelint",
+  "version": "1.0.0",
+  "author": "New Level Up <hello@newlevelup.co>",
+  "license": "ISC",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newlevelup/config.git",
+    "directory": "packages/stylelint-config"
+  },
+  "homepage": "https://github.com/newlevelup/config/tree/main/packages/stylelint-config#readme",
+  "bugs": {
+    "url": "https://github.com/newlevelup/config/issues"
+  },
+  "main": "stylelint.config.js",
+  "files": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "stylelint --config stylelint.config.js --formatter tap __tests__"
+  },
+  "dependencies": {
+    "stylelint-config-css-modules": "4.1.0",
+    "stylelint-config-prettier": "9.0.4",
+    "stylelint-config-standard-scss": "6.1.0",
+    "stylelint-prettier": "2.0.0"
+  },
+  "devDependencies": {
+    "stylelint": "14.16.1"
+  },
+  "peerDependencies": {
+    "prettier": "2.8.1",
+    "stylelint": "14.16.1"
+  }
+}

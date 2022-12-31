@@ -1,0 +1,31 @@
+{
+  "name": "@newlevelup/prettier-config",
+  "description": "New Level Up shareable config for prettier",
+  "version": "2.1.5",
+  "author": "New Level Up <hello@newlevelup.co>",
+  "license": "ISC",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newlevelup/config.git",
+    "directory": "packages/prettier-config"
+  },
+  "homepage": "https://github.com/newlevelup/config/tree/main/packages/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/newlevelup/config/issues"
+  },
+  "main": "prettier.config.js",
+  "files": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "prettier --config prettier.config.js --loglevel debug --check __tests__"
+  },
+  "devDependencies": {
+    "prettier": "2.8.1"
+  },
+  "peerDependencies": {
+    "prettier": "2.8.1"
+  }
+}
