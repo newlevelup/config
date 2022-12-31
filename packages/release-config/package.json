@@ -14,6 +14,11 @@
   "bugs": {
     "url": "https://github.com/newlevelup/config/issues"
   },
+  "keywords": [
+    "newlevelup",
+    "config",
+    "release"
+  ],
   "main": "index.js",
   "files": [
     "npm-multiple.js"

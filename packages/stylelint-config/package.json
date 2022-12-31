@@ -14,12 +14,13 @@
   "bugs": {
     "url": "https://github.com/newlevelup/config/issues"
   },
-  "main": "stylelint.config.js",
-  "files": [],
   "keywords": [
     "newlevelup",
+    "config",
     "stylelint"
   ],
+  "main": "stylelint.config.js",
+  "files": [],
   "scripts": {
     "test": "stylelint --config stylelint.config.js --formatter tap __tests__"
   },

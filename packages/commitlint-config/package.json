@@ -16,6 +16,7 @@
   },
   "keywords": [
     "newlevelup",
+    "config",
     "commitlint"
   ],
   "main": "commitlint.config.js",

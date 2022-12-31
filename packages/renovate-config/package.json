@@ -10,6 +10,11 @@
     "url": "https://github.com/newlevelup/config.git",
     "directory": "packages/renovate-config"
   },
+  "keywords": [
+    "newlevelup",
+    "config",
+    "renovate"
+  ],
   "homepage": "https://github.com/newlevelup/config/tree/main/packages/renovate-config#readme",
   "bugs": {
     "url": "https://github.com/newlevelup/config/issues"
