@@ -1,0 +1,30 @@
+{
+  "name": "@newlevelup/syncpack-example-config",
+  "version": "1.0.0",
+  "private": true,
+  "license": "ISC",
+  "description": "example",
+  "author": "New Level Up <hello@newlevelup.co>",
+  "homepage": "https://github.com/newlevelup/config/tree/main/packages/syncpack-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newlevelup/config.git",
+    "directory": "packages/syncpack-config"
+  },
+  "bugs": "https://github.com/newlevelup/config/issues",
+  "main": "index.js",
+  "files": [
+    "main.js",
+    "source.js"
+  ],
+  "scripts": {
+    "test": "echo 'No test specified'"
+  },
+  "peerDependencies": {},
+  "keywords": [
+    "config",
+    "example",
+    "newlevelup",
+    "syncpack"
+  ]
+}

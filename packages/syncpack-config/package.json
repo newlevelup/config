@@ -1,0 +1,31 @@
+{
+  "name": "@newlevelup/syncpack-config",
+  "version": "1.0.0",
+  "private": false,
+  "license": "ISC",
+  "description": "New Level Up shareable config for syncpack",
+  "author": "New Level Up <hello@newlevelup.co>",
+  "homepage": "https://github.com/newlevelup/config/tree/main/packages/syncpack-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newlevelup/config.git",
+    "directory": "packages/syncpack-config"
+  },
+  "bugs": "https://github.com/newlevelup/config/issues",
+  "main": "syncpack.config.js",
+  "files": [],
+  "scripts": {
+    "test": "syncpack format --config syncpack.config.js --source __tests__/example.json"
+  },
+  "devDependencies": {
+    "syncpack": "8.4.11"
+  },
+  "peerDependencies": {
+    "syncpack": "8.4.11"
+  },
+  "keywords": [
+    "config",
+    "newlevelup",
+    "syncpack"
+  ]
+}
