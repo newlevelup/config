@@ -1,0 +1,110 @@
+{
+  "name": "@newlevelup/config",
+  "description": "New Level Up shareable configs",
+  "author": "New Level Up <hello@newlevelup.co>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newlevelup/config.git"
+  },
+  "homepage": "https://github.com/newlevelup/config#readme",
+  "bugs": {
+    "url": "https://github.com/newlevelup/config/issues"
+  },
+  "keywords": [
+    "newlevelup",
+    "config"
+  ],
+  "scripts": {
+    "prepare": "is-ci || husky install",
+    "pretest": "yarn lint",
+    "test": "yarn workspaces run test",
+    "lint": "npm-run-all --parallel lint:*",
+    "lint:js": "eslint --ignore-path .gitignore .",
+    "lint:css": "stylelint --ignore-path .gitignore '**/*.?(s)css'",
+    "format": "npm-run-all --parallel format:*",
+    "format:js": "yarn lint:js --fix",
+    "format:css": "yarn lint:css --fix"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.3.0",
+    "@newlevelup/commitlint-config": "*",
+    "@newlevelup/editor-config": "*",
+    "@newlevelup/eslint-config": "*",
+    "@newlevelup/prettier-config": "*",
+    "@newlevelup/release-config": "*",
+    "@newlevelup/stylelint-config": "*",
+    "@qiwi/multi-semantic-release": "6.5.1",
+    "eslint": "8.30.0",
+    "husky": "8.0.2",
+    "is-ci": "3.0.1",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.8.1",
+    "stylelint": "14.16.1",
+    "typescript": "4.9.4"
+  },
+  "resolutions": {
+    "@typescript-eslint/parser": "5.47.1"
+  },
+  "commitlint": {
+    "extends": [
+      "@newlevelup"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "@newlevelup"
+    ]
+  },
+  "prettier": "@newlevelup/prettier-config",
+  "release": {
+    "extends": "@newlevelup/release-config/npm-multiple",
+    "branches": [
+      "main"
+    ]
+  },
+  "renovate": {
+    "extends": [
+      "@newlevelup"
+    ],
+    "baseBranches": [
+      "main"
+    ],
+    "packageRules": [
+      {
+        "extends": [
+          "monorepo:commitlint"
+        ],
+        "semanticCommitType": "fix"
+      },
+      {
+        "extends": [
+          "monorepo:semantic-release"
+        ],
+        "semanticCommitType": "fix"
+      },
+      {
+        "extends": [
+          "packages:eslint"
+        ],
+        "semanticCommitType": "fix"
+      },
+      {
+        "extends": [
+          "packages:stylelint"
+        ],
+        "semanticCommitType": "fix"
+      },
+      {
+        "packageNames": [
+          "prettier"
+        ],
+        "semanticCommitType": "fix"
+      }
+    ]
+  }
+}

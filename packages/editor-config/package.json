@@ -1,0 +1,28 @@
+{
+  "name": "@newlevelup/editor-config",
+  "description": "New Level Up shareable config for EditorConfig",
+  "version": "1.0.0",
+  "author": "New Level Up <hello@newlevelup.co>",
+  "license": "ISC",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newlevelup/config.git",
+    "directory": "packages/editor-config"
+  },
+  "homepage": "https://github.com/newlevelup/config/tree/main/packages/editor-config#readme",
+  "bugs": {
+    "url": "https://github.com/newlevelup/config/issues"
+  },
+  "main": "index.js",
+  "files": [
+    ".editorconfig"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "postinstall": "node ./index.js",
+    "test": "echo 'No test specified'"
+  }
+}

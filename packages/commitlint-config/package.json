@@ -1,0 +1,28 @@
+{
+  "name": "@newlevelup/commitlint-config",
+  "description": "New Level Up shareable config for commitlint",
+  "version": "1.0.0",
+  "author": "New Level Up <hello@newlevelup.co>",
+  "license": "ISC",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newlevelup/config.git",
+    "directory": "packages/commitlint-config"
+  },
+  "homepage": "https://github.com/newlevelup/config/tree/main/packages/commitlint-config#readme",
+  "bugs": {
+    "url": "https://github.com/newlevelup/config/issues"
+  },
+  "main": "commitlint.config.js",
+  "files": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo 'No test specified'"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "17.3.0"
+  }
+}

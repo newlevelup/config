@@ -1,0 +1,73 @@
+{
+  "name": "@newlevelup/renovate-config",
+  "description": "New Level Up shareable config for Renovate",
+  "version": "1.8.0",
+  "author": "New Level Up <hello@newlevelup.co>",
+  "license": "ISC",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newlevelup/config.git",
+    "directory": "packages/renovate-config"
+  },
+  "homepage": "https://github.com/newlevelup/config/tree/main/packages/renovate-config#readme",
+  "bugs": {
+    "url": "https://github.com/newlevelup/config/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [],
+  "scripts": {
+    "test": "renovate-config-validator"
+  },
+  "devDependencies": {
+    "renovate": "34.76.2"
+  },
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base"
+      ],
+      "packageRules": [
+        {
+          "automerge": true,
+          "matchUpdateTypes": [
+            "minor",
+            "patch",
+            "pin",
+            "digest",
+            "lockFileMaintenance",
+            "bump"
+          ]
+        },
+        {
+          "description": "Group New Level Up packages together",
+          "groupName": "newlevelup packages",
+          "groupSlug": "newlevelup",
+          "matchPackagePatterns": [
+            "^@newlevelup"
+          ]
+        },
+        {
+          "description": "Group Next.js packages and plugins together",
+          "extends": [
+            "monorepo:nextjs"
+          ],
+          "groupName": "nextjs packages",
+          "groupSlug": "nextjs",
+          "matchPackagePatterns": [
+            "^next"
+          ]
+        }
+      ],
+      "postUpdateOptions": [
+        "yarnDedupeHighest"
+      ],
+      "prCreation": "not-pending",
+      "reviewers": [
+        "team:@newlevelup/reviewers"
+      ]
+    }
+  }
+}
