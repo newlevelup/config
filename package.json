@@ -1,34 +1,27 @@
 {
   "name": "@newlevelup/config",
+  "private": true,
+  "license": "MIT",
   "description": "New Level Up shareable configs",
   "author": "New Level Up <hello@newlevelup.co>",
-  "license": "MIT",
-  "private": true,
+  "homepage": "https://github.com/newlevelup/config#readme",
+  "repository": "newlevelup/config.git",
+  "bugs": "https://github.com/newlevelup/config/issues",
   "workspaces": [
     "packages/*"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/newlevelup/config.git"
-  },
-  "homepage": "https://github.com/newlevelup/config#readme",
-  "bugs": {
-    "url": "https://github.com/newlevelup/config/issues"
-  },
-  "keywords": [
-    "newlevelup",
-    "config"
-  ],
   "scripts": {
+    "format": "npm-run-all --parallel format:*",
+    "format:css": "yarn lint:css --fix",
+    "format:js": "yarn lint:js --fix",
+    "format:mismatches": "syncpack fix-mismatches",
+    "format:packages": "syncpack format",
+    "lint": "npm-run-all --parallel lint:*",
+    "lint:css": "stylelint --ignore-path .gitignore '**/*.?(s)css'",
+    "lint:js": "eslint --ignore-path .gitignore .",
     "prepare": "is-ci || husky install",
     "pretest": "yarn lint",
-    "test": "yarn workspaces run test",
-    "lint": "npm-run-all --parallel lint:*",
-    "lint:js": "eslint --ignore-path .gitignore .",
-    "lint:css": "stylelint --ignore-path .gitignore '**/*.?(s)css'",
-    "format": "npm-run-all --parallel format:*",
-    "format:js": "yarn lint:js --fix",
-    "format:css": "yarn lint:css --fix"
+    "test": "yarn workspaces run test"
   },
   "devDependencies": {
     "@commitlint/cli": "17.3.0",
@@ -38,6 +31,7 @@
     "@newlevelup/prettier-config": "*",
     "@newlevelup/release-config": "*",
     "@newlevelup/stylelint-config": "*",
+    "@newlevelup/syncpack-config": "*",
     "@qiwi/multi-semantic-release": "6.5.1",
     "eslint": "8.31.0",
     "husky": "8.0.2",
@@ -51,6 +45,10 @@
   "resolutions": {
     "@typescript-eslint/parser": "5.47.1"
   },
+  "keywords": [
+    "config",
+    "newlevelup"
+  ],
   "commitlint": {
     "extends": [
       "@newlevelup"
@@ -107,6 +105,5 @@
         "semanticCommitType": "fix"
       }
     ]
-  },
-  "version": "1.1.0"
+  }
 }

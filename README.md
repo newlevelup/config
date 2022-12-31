@@ -9,6 +9,7 @@ New Level Up shareable configs:
 - :package: :rocket: [`release-config`](packages/release-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/release-config.svg)](https://www.npmjs.com/package/@newlevelup/release-config)
 - :package: :recycle: [`renovate-config`](packages/renovate-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/renovate-config.svg)](https://www.npmjs.com/package/@newlevelup/renovate-config)
 - :package: :necktie: [`stylelint-config`](packages/stylelint-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/stylelint-config.svg)](https://www.npmjs.com/package/@newlevelup/stylelint-config)
+- :package: :bus: [`syncpack-config`](packages/syncpack-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/syncpack-config.svg)](https://www.npmjs.com/package/@newlevelup/syncpack-config)
 
 ## CI / CD Tools
 
