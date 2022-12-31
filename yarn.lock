@@ -4266,10 +4266,10 @@ eslint-config-standard-react@13.0.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard-react/-/eslint-config-standard-react-13.0.0.tgz#dcc85bc3210dac858bc94ac53d024a5488ce5568"
   integrity sha512-HrVPGj8UncHfV+BsdJTuJpVsomn6AIrke3Af2Fh4XFvQQDU+iO6N2ZL+UsC+scExft4fU3uf7fJwj7PKWnXJDA==
 
-eslint-config-standard-with-typescript@23.0.0:
-  version "23.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-23.0.0.tgz#aa4b656740bbb2592d4cadec735d41e36245a44b"
-  integrity sha512-iaaWifImn37Z1OXbNW1es7KI+S7D408F9ys0bpaQf2temeBWlvb0Nc5qHkOgYaRb5QxTZT32GGeN1gtswASOXA==
+eslint-config-standard-with-typescript@24.0.0:
+  version "24.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-24.0.0.tgz#30e83b580380fd71477bf80bcb5405e8a46f555f"
+  integrity sha512-vEnGXZ5aiR1enl9652iIP4nTpY3GPcNEwuhrsPbKO3Ce3D6T3yCqZdkUPk8nJetfdL/yO0DLsHg2d/l9iECIdg==
   dependencies:
     "@typescript-eslint/parser" "^5.0.0"
     eslint-config-standard "17.0.0"
