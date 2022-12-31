@@ -1,4 +1,4 @@
-# stylelint-config [![NPM version](https://img.shields.io/npm/v/@newlevelup/stylelint-config.svg)](https://www.npmjs.com/package/@newlevelup/stylelint-config)
+# [stylelint-config](https://github.com/newlevelup/config/tree/develop/packages/stylelint-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/stylelint-config.svg)](https://www.npmjs.com/package/@newlevelup/stylelint-config)
 
 New Level Up [shareable config](https://stylelint.io/user-guide/configuration#extends) for [stylelint](https://stylelint.io/)
 

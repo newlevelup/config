@@ -1,4 +1,4 @@
-# renovate-config [![NPM version](https://img.shields.io/npm/v/@newlevelup/renovate-config.svg)](https://www.npmjs.com/package/@newlevelup/renovate-config)
+# [renovate-config](https://github.com/newlevelup/config/tree/develop/packages/renovate-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/renovate-config.svg)](https://www.npmjs.com/package/@newlevelup/renovate-config)
 
 New Level Up [shareable config](https://docs.renovatebot.com/config-presets/) for [Renovate](http://renovatebot.com/)
 

@@ -1,4 +1,4 @@
-# [prettier-config]() [![NPM version](https://img.shields.io/npm/v/@newlevelup/prettier-config.svg)](https://www.npmjs.com/package/@newlevelup/prettier-config)
+# [prettier-config](https://github.com/newlevelup/config/tree/develop/packages/prettier-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/prettier-config.svg)](https://www.npmjs.com/package/@newlevelup/prettier-config)
 
 New Level Up [shareable config](https://prettier.io/docs/en/configuration.html#sharing-configurations) for [Prettier](https://prettier.io/)
 

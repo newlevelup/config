@@ -1,4 +1,4 @@
-# eslint-config [![NPM version](https://img.shields.io/npm/v/@newlevelup/eslint-config.svg)](https://www.npmjs.com/package/@newlevelup/eslint-config)
+# [eslint-config](https://github.com/newlevelup/config/tree/develop/packages/eslint-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/eslint-config.svg)](https://www.npmjs.com/package/@newlevelup/eslint-config)
 
 New Level Up [shareable config](https://eslint.org/docs/developer-guide/shareable-configs) for [ESLint](https://eslint.org/)
 

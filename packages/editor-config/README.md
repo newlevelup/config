@@ -1,4 +1,4 @@
-# editor-config [![NPM version](https://img.shields.io/npm/v/@newlevelup/editor-config.svg)](https://www.npmjs.com/package/@newlevelup/editor-config)
+# [editor-config](https://github.com/newlevelup/config/tree/develop/packages/editor-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/editor-config.svg)](https://www.npmjs.com/package/@newlevelup/editor-config)
 
 New Level Up [shareable config](https://editorconfig.org/#example-file) for [EditorConfig](https://editorconfig.org/)
 

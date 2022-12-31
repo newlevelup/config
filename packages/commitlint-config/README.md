@@ -1,4 +1,4 @@
-# commitlint-config [![NPM version](https://img.shields.io/npm/v/@newlevelup/commitlint-config.svg)](https://www.npmjs.com/package/@newlevelup/commitlint-config)
+# [commitlint-config](https://github.com/newlevelup/config/tree/develop/packages/commitlint-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/commitlint-config.svg)](https://www.npmjs.com/package/@newlevelup/commitlint-config)
 
 New Level Up [shareable config](https://commitlint.js.org/#/concepts-shareable-config) for [commitlint](https://commitlint.js.org/)
 
