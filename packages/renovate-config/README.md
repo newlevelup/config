@@ -1,4 +1,4 @@
-# [renovate-config](https://github.com/newlevelup/config/tree/develop/packages/renovate-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/renovate-config.svg)](https://www.npmjs.com/package/@newlevelup/renovate-config)
+# [renovate-config](https://github.com/newlevelup/config/tree/develop/packages/renovate-config) ![Package version](https://img.shields.io/github/package-json/v/newlevelup/config?filename=packages%2Frenovate-config%2Fpackage.json&label=%20&color=0080FF) [![NPM version](https://img.shields.io/npm/v/@newlevelup/renovate-config?label=&logo=npm&color=CB0001)](https://www.npmjs.com/package/@newlevelup/renovate-config) [![Github Package version](https://img.shields.io/npm/v/@newlevelup/renovate-config?label=&logo=github&color=24292f)](https://github.com/newlevelup/config/pkgs/npm/renovate-config)
 
 New Level Up [shareable config](https://docs.renovatebot.com/config-presets/) for [Renovate](http://renovatebot.com/)
 

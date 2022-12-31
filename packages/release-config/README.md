@@ -1,4 +1,4 @@
-# [release-config](https://github.com/newlevelup/config/tree/develop/packages/release-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/release-config.svg)](https://www.npmjs.com/package/@newlevelup/release-config)
+# [release-config](https://github.com/newlevelup/config/tree/develop/packages/release-config) ![Package version](https://img.shields.io/github/package-json/v/newlevelup/config?filename=packages%2Frelease-config%2Fpackage.json&label=%20&color=0080FF) [![NPM version](https://img.shields.io/npm/v/@newlevelup/release-config?label=&logo=npm&color=CB0001)](https://www.npmjs.com/package/@newlevelup/release-config) [![Github Package version](https://img.shields.io/npm/v/@newlevelup/release-config?label=&logo=github&color=24292f)](https://github.com/newlevelup/config/pkgs/npm/release-config)
 
 New Level Up [shareable config](https://semantic-release.gitbook.io/semantic-release/usage/shareable-configurations) for [semantic-relase](https://semantic-release.gitbook.io/)
 

@@ -1,4 +1,4 @@
-# [prettier-config](https://github.com/newlevelup/config/tree/develop/packages/prettier-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/prettier-config.svg)](https://www.npmjs.com/package/@newlevelup/prettier-config)
+# [prettier-config](https://github.com/newlevelup/config/tree/develop/packages/prettier-config) ![Package version](https://img.shields.io/github/package-json/v/newlevelup/config?filename=packages%2Fprettier-config%2Fpackage.json&label=%20&color=0080FF) [![NPM version](https://img.shields.io/npm/v/@newlevelup/prettier-config?label=&logo=npm&color=CB0001)](https://www.npmjs.com/package/@newlevelup/prettier-config) [![Github Package version](https://img.shields.io/npm/v/@newlevelup/prettier-config?label=&logo=github&color=24292f)](https://github.com/newlevelup/config/pkgs/npm/prettier-config)
 
 New Level Up [shareable config](https://prettier.io/docs/en/configuration.html#sharing-configurations) for [Prettier](https://prettier.io/)
 

@@ -1,4 +1,4 @@
-# [stylelint-config](https://github.com/newlevelup/config/tree/develop/packages/stylelint-config) [![NPM version](https://img.shields.io/npm/v/@newlevelup/stylelint-config.svg)](https://www.npmjs.com/package/@newlevelup/stylelint-config)
+# [stylelint-config](https://github.com/newlevelup/config/tree/develop/packages/stylelint-config) ![Package version](https://img.shields.io/github/package-json/v/newlevelup/config?filename=packages%2Fstylelint-config%2Fpackage.json&label=%20&color=0080FF) [![NPM version](https://img.shields.io/npm/v/@newlevelup/stylelint-config?label=&logo=npm&color=CB0001)](https://www.npmjs.com/package/@newlevelup/stylelint-config) [![Github Package version](https://img.shields.io/npm/v/@newlevelup/stylelint-config?label=&logo=github&color=24292f)](https://github.com/newlevelup/config/pkgs/npm/stylelint-config)
 
 New Level Up [shareable config](https://stylelint.io/user-guide/configuration#extends) for [stylelint](https://stylelint.io/)
 
