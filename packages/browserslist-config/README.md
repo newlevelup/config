@@ -4,7 +4,7 @@ New Level Up [shareable config](https://github.com/browserslist/browserslist#sha
 
 ## Installation
 
-> :bulb: The purpose of [Browserslist] is to specify which browsers should be support your current application by specifying "queries" in a config file. This is commonly used by all major frontend frameworks, but not limited only to it. More detailed information [here](https://stackoverflow.com/a/66234329).
+> :bulb: The purpose of `Browserslist` is to specify which browsers should be support your current application by specifying "queries" in a config file. This is commonly used by all major frontend frameworks, but not limited only to it. More detailed information [here](https://stackoverflow.com/a/66234329).
 
 Install `@newlevelup/browserslist-config`:
 
