@@ -19,9 +19,9 @@ Tools used in this repository to make it lit 🔥
 
 ### CI / CD
 
-- 🤖 [Kodiak](https://kodiakhq.com/) to "Automate (our) GitHub Pull Requests"
-- 🤖 [Renovate](https://github.com/renovatebot/renovate) for dependency package management (patch + minor)
-- 💯 [syncpack](https://github.com/JamieMason/syncpack) for consistent dependency versions in package.json
+- 🤖 [Kodiak](https://kodiakhq.com/) to automate GitHub Pull Requests merges and rebase.
+- 🤖 [Renovate](https://github.com/renovatebot/renovate) for dependency package management (patch + minor).
+- 💯 [syncpack](https://github.com/JamieMason/syncpack) for consistent dependency versions in package.json.
 
 ## 🙇️ References
 
