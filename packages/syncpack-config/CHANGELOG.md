@@ -1,3 +1,10 @@
+# @newlevelup/syncpack-config [1.1.0](https://github.com/newlevelup/config/compare/@newlevelup/syncpack-config@1.0.0...@newlevelup/syncpack-config@1.1.0) (2023-01-07)
+
+
+### Features
+
+* add serviceName for syncpack ([783f26b](https://github.com/newlevelup/config/commit/783f26b2c86a333f4cef37b84e489e7c73acde44))
+
 # @newlevelup/syncpack-config 1.0.0 (2022-12-31)
 
 
