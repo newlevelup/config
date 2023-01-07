@@ -21,6 +21,7 @@ module.exports = {
   ],
   sortFirst: [
     'name',
+    'serviceName',
     'version',
     'private',
     'license',
