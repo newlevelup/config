@@ -38,6 +38,7 @@ module.exports = {
     'bugs',
     'type',
     'main',
+    'types',
     'files',
     'workspaces',
     'module',
