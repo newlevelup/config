@@ -1,3 +1,10 @@
+# @newlevelup/syncpack-config [1.2.0](https://github.com/newlevelup/config/compare/@newlevelup/syncpack-config@1.1.0...@newlevelup/syncpack-config@1.2.0) (2023-01-09)
+
+
+### Features
+
+* add types sorting for syncpack ([64d2da2](https://github.com/newlevelup/config/commit/64d2da20ad8fd21166a1664794e6416045209106))
+
 # @newlevelup/syncpack-config [1.1.0](https://github.com/newlevelup/config/compare/@newlevelup/syncpack-config@1.0.0...@newlevelup/syncpack-config@1.1.0) (2023-01-07)
 
 
