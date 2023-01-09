@@ -2163,17 +2163,17 @@
   dependencies:
     "@seald-io/nedb" "3.1.0"
 
-"@renovatebot/osv-offline@1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.0.8.tgz#d8a386c0614a24e00326f224e2bf6fc90df5a03c"
-  integrity sha512-oYryh9uttikbaYhcoiJn8DBMjgxbneu9NvVF5PnG7qrUDYr7KIrlxdOlo8vQ2iytT1qd8+VzOLDoJReu1EL1Ag==
+"@renovatebot/osv-offline@1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@renovatebot/osv-offline/-/osv-offline-1.0.10.tgz#9e918e5f1d93c187897426277a57bfedf9ae865d"
+  integrity sha512-xEn+c2a2SQV92JaFCTzV/zvXuFAXG6W0d05sR398qJGkEfhZLo6y9FvaWJirQi24vRXjpzdUmB9CXtzR36s1fg==
   dependencies:
     "@octokit/rest" "19.0.5"
     "@renovatebot/osv-offline-db" "1.0.1"
-    adm-zip "0.5.9"
+    adm-zip "0.5.10"
     fs-extra "10.1.0"
     got "11.8.6"
-    luxon "3.1.1"
+    luxon "3.2.0"
 
 "@renovatebot/pep440@2.1.6":
   version "2.1.6"
@@ -2859,10 +2859,10 @@ acorn@^8.0.0, acorn@^8.4.1, acorn@^8.8.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.1.tgz#0a3f9cbecc4ec3bea6f0a80b66ae8dd2da250b73"
   integrity sha512-7zFpHzhnqYKrkYdUjF1HI1bzd0VygEGX8lFk4k5zVMqHEoES+P+7TKI+EvLO9WVMJ8eekdO0aDEK044xTXwPPA==
 
-adm-zip@0.5.9:
-  version "0.5.9"
-  resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.5.9.tgz#b33691028333821c0cf95c31374c5462f2905a83"
-  integrity sha512-s+3fXLkeeLjZ2kLjCBwQufpI5fuN+kIGBxu6530nVQZGVol0d7Y/M88/xw9HGGUcJjKf8LutN3VPRUBq6N7Ajg==
+adm-zip@0.5.10:
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.5.10.tgz#4a51d5ab544b1f5ce51e1b9043139b639afff45b"
+  integrity sha512-x0HvcHqVJNTPk/Bw8JbLWlWoo6Wwnsug0fnYYro1HBrjxZ3G7/AZk7Ahv8JwDe1uIcz8eBqvu86FuF1POiG7vQ==
 
 agent-base@6, agent-base@^6.0.2:
   version "6.0.2"
@@ -5192,10 +5192,10 @@ globrex@^0.1.2:
   resolved "https://registry.yarnpkg.com/globrex/-/globrex-0.1.2.tgz#dd5d9ec826232730cd6793a5e33a9302985e6098"
   integrity sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==
 
-good-enough-parser@1.1.21:
-  version "1.1.21"
-  resolved "https://registry.yarnpkg.com/good-enough-parser/-/good-enough-parser-1.1.21.tgz#92a799b7e0c02029e3457644db8c56cc8a270e60"
-  integrity sha512-XkTm6NC2z0AGkaTI3dgmNMgPoKC51Mu+TIXUyAWmp8xk5iC+6+JKBaQRwfr3/UNsU09VdPFdjMnjks/FWpU+Gw==
+good-enough-parser@1.1.22:
+  version "1.1.22"
+  resolved "https://registry.yarnpkg.com/good-enough-parser/-/good-enough-parser-1.1.22.tgz#1fcab50b385ead49cb89a847868631d588bc5716"
+  integrity sha512-fI4qWIeyqjleGazMcXnqgtvG8qBJGUoj5CtraqaUpZmk94ztMab6irx3Yz+EsJKKgIrwkSBM69WHLngfhAe7hg==
   dependencies:
     "@thi.ng/zipper" "1.0.3"
     "@types/moo" "0.5.5"
@@ -5311,6 +5311,11 @@ hasha@5.2.2:
   dependencies:
     is-stream "^2.0.0"
     type-fest "^0.8.0"
+
+hcl2-parser@1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/hcl2-parser/-/hcl2-parser-1.0.3.tgz#096d0ff5a3c46707ace54fcb7571317f5828ff0e"
+  integrity sha512-NQUm/BFF+2nrBfeqDhhsy4DxxiLHgkeE3FywtjFiXnjSUaio3w4Tz1MQ3vGJBUhyArzOXJ24pO7JwE5LAn7Ncg==
 
 he@1.2.0:
   version "1.2.0"
@@ -5971,10 +5976,10 @@ json-stringify-safe@^5.0.1:
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==
 
-json5@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.2.tgz#64471c5bdcc564c18f7c1d4df2e2297f2457c5ab"
-  integrity sha512-46Tk9JiOL2z7ytNQWFLpj99RZkVgeHf87yGQKsIkaPz1qSH9UczKH1rO7K3wgRselo0tYMUNfecYpm/p1vC7tQ==
+json5@2.2.3, json5@^2.0.0, json5@^2.2.1:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
+  integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
 json5@^1.0.1:
   version "1.0.2"
@@ -5982,11 +5987,6 @@ json5@^1.0.1:
   integrity sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==
   dependencies:
     minimist "^1.2.0"
-
-json5@^2.0.0, json5@^2.2.1:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
-  integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
 jsonfile@^4.0.0:
   version "4.0.0"
@@ -6395,10 +6395,10 @@ lru-cache@^7.4.4, lru-cache@^7.5.1, lru-cache@^7.7.1:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.14.1.tgz#8da8d2f5f59827edb388e63e459ac23d6d408fea"
   integrity sha512-ysxwsnTKdAx96aTRdhDOCQfDgbHnt8SK0KY8SEjO0wHinhWOFTESbjVCMPbU1uGXg/ch4lifqx0wfjOawU2+WA==
 
-luxon@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.1.1.tgz#b492c645b2474fb86f3bd3283213846b99c32c1e"
-  integrity sha512-Ah6DloGmvseB/pX1cAmjbFvyU/pKuwQMQqz7d0yvuDlVYLTs2WeDHQMpC8tGjm1da+BriHROW/OEIT/KfYg6xw==
+luxon@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.2.0.tgz#7962c5dafcd3623e70e222882be49b381e7a8718"
+  integrity sha512-Namj3XqoJjFekq/JHQEaaAv4zyE/fyyDBrMEBnIL2s/X54SC8W5Ea0uej1TRXUArWec8OojsAVsGBYhNRjpMVw==
 
 make-error@^1.1.1:
   version "1.3.6"
@@ -9353,10 +9353,10 @@ remark@14.0.2, remark@^14.0.0:
     remark-stringify "^10.0.0"
     unified "^10.0.0"
 
-renovate@34.78.0:
-  version "34.78.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.78.0.tgz#a76802bf80a5d6d164d6076e0f2967921aa12946"
-  integrity sha512-giM6YKUkkLblPgiXBnuXebSvg9O925jZvtAXLOedXSCcAKpKIKxCivTBVGKbzLWPvuqGXbnYzgEslTpzIQopaw==
+renovate@34.95.0:
+  version "34.95.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.95.0.tgz#a94b4a456ac325a4b91f9507b5227ffdf890c2f1"
+  integrity sha512-NzkRhqgF8lvSli9nKMfPwYXuxujLCxQ2HePlp+UWdPQyauAssdRGgBpX3fcnRlQhVb1RvMbgZHmjwlManyo3ZQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.226.0"
     "@aws-sdk/client-ec2" "3.226.0"
@@ -9377,7 +9377,7 @@ renovate@34.78.0:
     "@opentelemetry/sdk-trace-base" "1.8.0"
     "@opentelemetry/sdk-trace-node" "1.8.0"
     "@opentelemetry/semantic-conventions" "1.8.0"
-    "@renovatebot/osv-offline" "1.0.8"
+    "@renovatebot/osv-offline" "1.0.10"
     "@renovatebot/pep440" "2.1.6"
     "@renovatebot/ruby-semver" "1.1.7"
     "@sindresorhus/is" "4.6.0"
@@ -9414,18 +9414,19 @@ renovate@34.78.0:
     git-url-parse "13.1.0"
     github-url-from-git "1.5.0"
     global-agent "3.0.0"
-    good-enough-parser "1.1.21"
+    good-enough-parser "1.1.22"
     got "11.8.6"
     graph-data-structure "2.0.0"
     handlebars "4.7.7"
     hasha "5.2.2"
+    hcl2-parser "1.0.3"
     ignore "5.2.4"
     ini "3.0.1"
     js-yaml "4.1.0"
     json-dup-key-validator "1.0.3"
     json-stringify-pretty-compact "3.0.0"
-    json5 "2.2.2"
-    luxon "3.1.1"
+    json5 "2.2.3"
+    luxon "3.2.0"
     markdown-it "13.0.1"
     markdown-table "2.0.0"
     marshal "0.5.4"
@@ -9444,7 +9445,7 @@ renovate@34.78.0:
     redis "4.5.1"
     remark "13.0.0"
     remark-github "10.1.0"
-    safe-stable-stringify "2.4.1"
+    safe-stable-stringify "2.4.2"
     semver "7.3.8"
     semver-stable "3.0.0"
     semver-utils "1.1.4"
@@ -9622,10 +9623,10 @@ safe-regex-test@^1.0.0:
     get-intrinsic "^1.1.3"
     is-regex "^1.1.4"
 
-safe-stable-stringify@2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-2.4.1.tgz#34694bd8a30575b7f94792aa51527551bd733d61"
-  integrity sha512-dVHE6bMtS/bnL2mwualjc6IxEv1F+OCUpA46pKUj6F8uDbUM0jCCulPqRNPSnWwGNKx5etqMjZYdXtrm5KJZGA==
+safe-stable-stringify@2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-2.4.2.tgz#ec7b037768098bf65310d1d64370de0dc02353aa"
+  integrity sha512-gMxvPJYhP0O9n2pvcfYfIuYgbledAOJFcqRThtPRmjscaipiwcwPPKLytpVzMkG2HAN87Qmo2d4PtGiri1dSLA==
 
 "safer-buffer@>= 2.1.2 < 3.0.0", safer-buffer@^2.0.2, safer-buffer@^2.1.0:
   version "2.1.2"
