@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { ContentContainer, Landmark, SmartLink } from '@newlevelup/chipset'
+import { ContentContainer, Landmark, SmartLink } from '@newlevelup/components'
 import { LogoLockup } from '../LogoLockup'
 
 import theme from './theme.module.scss'
