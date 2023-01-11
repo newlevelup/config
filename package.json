@@ -76,6 +76,9 @@
       "@newlevelup/remark-config"
     ]
   },
+  "resolutions": {
+    "semantic-release": "19.0.5"
+  },
   "renovate": {
     "extends": [
       "@newlevelup"
