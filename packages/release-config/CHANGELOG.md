@@ -1,3 +1,13 @@
+## @newlevelup/release-config [1.0.2](https://github.com/newlevelup/config/compare/@newlevelup/release-config@1.0.1...@newlevelup/release-config@1.0.2) (2023-01-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @amanda-mitchell/semantic-release-npm-multiple to v3.6.0 ([6ec7ed9](https://github.com/newlevelup/config/commit/6ec7ed98164b6f693eacb13de01b25e917d72b42))
+* **deps:** update dependency @semantic-release/npm to v9.0.2 ([a1be9fe](https://github.com/newlevelup/config/commit/a1be9fefed3363973b23e403450a4c49a932558a))
+* **deps:** update dependency semantic-release to v20 ([c56df4c](https://github.com/newlevelup/config/commit/c56df4c80c1c4cf9911dc6411e6a1ce4cc3052d6))
+* package conflict resolution for semantic-release ([d872dd6](https://github.com/newlevelup/config/commit/d872dd6c37888def57674bd588ade64fcae043a3))
+
 ## @newlevelup/release-config [1.0.1](https://github.com/newlevelup/config/compare/@newlevelup/release-config@1.0.0...@newlevelup/release-config@1.0.1) (2022-12-31)
 
 
