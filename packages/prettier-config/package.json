@@ -12,10 +12,9 @@
     "directory": "packages/prettier-config"
   },
   "bugs": "https://github.com/newlevelup/config/issues",
-  "main": "prettier.config.js",
-  "files": [],
+  "main": "index.json",
   "scripts": {
-    "test": "prettier --config prettier.config.js --loglevel debug --check __tests__"
+    "test": "prettier --config index.json --loglevel debug --check __tests__"
   },
   "devDependencies": {
     "prettier": "2.8.3"
