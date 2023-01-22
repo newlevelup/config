@@ -1,3 +1,21 @@
+## @newlevelup/eslint-config [1.0.9](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.8...@newlevelup/eslint-config@1.0.9) (2023-01-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.32.0 ([497d43f](https://github.com/newlevelup/config/commit/497d43f525bb02b1f4e0079b38df53b7429c32e0))
+* **deps:** update dependency eslint-plugin-import to v2.27.4 ([8075818](https://github.com/newlevelup/config/commit/8075818283ee9bd295e11a989391723429d6fa47))
+* **deps:** update dependency eslint-plugin-import to v2.27.5 ([c0ecfd8](https://github.com/newlevelup/config/commit/c0ecfd85aa8f22351f586caa15cea5b3e23238b8))
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.7.0 ([08a5ed9](https://github.com/newlevelup/config/commit/08a5ed9af59df9f6cec076dbc4f06c3faa4bcd22))
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.7.1 ([60538d5](https://github.com/newlevelup/config/commit/60538d5878318835f8064d9db785dd7bb9b417ec))
+* **deps:** update dependency eslint-plugin-n to v15.6.1 ([5733df9](https://github.com/newlevelup/config/commit/5733df905fdb8f0715c0dd92193077d4b74d1304))
+* **deps:** update dependency eslint-plugin-react to v7.32.0 ([f58d98e](https://github.com/newlevelup/config/commit/f58d98e3c23151705333f1941b2e0e2fef9c2886))
+* **deps:** update dependency eslint-plugin-react to v7.32.1 ([5bf0261](https://github.com/newlevelup/config/commit/5bf0261be6d06a73c312a423dee5f5ba83ff1d3e))
+* **deps:** update dependency eslint-plugin-storybook to v0.6.10 ([f769009](https://github.com/newlevelup/config/commit/f769009e2e1548ac35d3264f1b9333926c938873))
+* **deps:** update dependency prettier to v2.8.3 ([4134b36](https://github.com/newlevelup/config/commit/4134b362b90a13d73269782dd9196237444d89c3))
+* **deps:** update typescript-eslint monorepo to v5.48.1 ([46e3570](https://github.com/newlevelup/config/commit/46e3570fd1e7950ec97a3494f6d2037851d6acf4))
+* **deps:** update typescript-eslint monorepo to v5.48.2 ([b2980ad](https://github.com/newlevelup/config/commit/b2980adc63ef58bb6b3891b2b588c2465ac72b91))
+
 ## @newlevelup/eslint-config [1.0.8](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.7...@newlevelup/eslint-config@1.0.8) (2023-01-08)
 
 
