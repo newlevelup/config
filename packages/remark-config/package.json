@@ -14,9 +14,8 @@
   "bugs": "https://github.com/newlevelup/config/issues",
   "type": "module",
   "main": "index.js",
-  "files": [],
   "scripts": {
-    "test": "remark -r index.js __tests__ -o __tests__/generated-output.md"
+    "test": "remark -r index.js __tests__/*.md -S"
   },
   "dependencies": {
     "remark-frontmatter": "4.0.1",
