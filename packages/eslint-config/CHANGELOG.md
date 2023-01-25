@@ -1,3 +1,10 @@
+## @newlevelup/eslint-config [1.0.11](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.10...@newlevelup/eslint-config@1.0.11) (2023-01-25)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v5.49.0 ([1c6e985](https://github.com/newlevelup/config/commit/1c6e985507f19c0e3428029853eb3d7478604657))
+
 ## @newlevelup/eslint-config [1.0.10](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.9...@newlevelup/eslint-config@1.0.10) (2023-01-22)
 
 
