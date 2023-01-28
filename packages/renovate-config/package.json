@@ -17,7 +17,7 @@
     "test": "renovate-config-validator"
   },
   "devDependencies": {
-    "renovate": "34.114.1"
+    "renovate": "34.116.1"
   },
   "keywords": [
     "config",
