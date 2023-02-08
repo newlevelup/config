@@ -18,10 +18,10 @@
     "test": "syncpack format --config syncpack.config.js --source __tests__/example.json"
   },
   "devDependencies": {
-    "syncpack": "8.4.11"
+    "syncpack": "8.5.14"
   },
   "peerDependencies": {
-    "syncpack": "8.4.11"
+    "syncpack": "8.5.14"
   },
   "keywords": [
     "config",
