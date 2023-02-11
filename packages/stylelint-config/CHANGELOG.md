@@ -1,3 +1,10 @@
+## @newlevelup/stylelint-config [1.1.5](https://github.com/newlevelup/config/compare/@newlevelup/stylelint-config@1.1.4...@newlevelup/stylelint-config@1.1.5) (2023-02-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-config-css-modules to v4.2.0 ([05a8983](https://github.com/newlevelup/config/commit/05a89838f4ac66caea48d51920e6682704299fa0))
+
 ## @newlevelup/stylelint-config [1.1.4](https://github.com/newlevelup/config/compare/@newlevelup/stylelint-config@1.1.3...@newlevelup/stylelint-config@1.1.4) (2023-02-09)
 
 
