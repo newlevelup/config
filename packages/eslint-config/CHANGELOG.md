@@ -1,3 +1,10 @@
+## @newlevelup/eslint-config [1.0.28](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.27...@newlevelup/eslint-config@1.0.28) (2023-03-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-standard-with-typescript to v34.0.1 ([ee72fa0](https://github.com/newlevelup/config/commit/ee72fa0e0e9cf781d364927802b0bfdaec169837))
+
 ## @newlevelup/eslint-config [1.0.27](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.26...@newlevelup/eslint-config@1.0.27) (2023-03-15)
 
 
