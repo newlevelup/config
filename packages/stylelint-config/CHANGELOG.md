@@ -1,3 +1,10 @@
+## @newlevelup/stylelint-config [1.1.12](https://github.com/newlevelup/config/compare/@newlevelup/stylelint-config@1.1.11...@newlevelup/stylelint-config@1.1.12) (2023-03-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v2.8.7 ([0090e3e](https://github.com/newlevelup/config/commit/0090e3eef5524d67cfa1e70399ede30f6f8d774f))
+
 ## @newlevelup/stylelint-config [1.1.11](https://github.com/newlevelup/config/compare/@newlevelup/stylelint-config@1.1.10...@newlevelup/stylelint-config@1.1.11) (2023-03-22)
 
 
