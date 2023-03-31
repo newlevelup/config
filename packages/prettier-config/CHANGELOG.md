@@ -1,3 +1,10 @@
+## @newlevelup/prettier-config [1.0.6](https://github.com/newlevelup/config/compare/@newlevelup/prettier-config@1.0.5...@newlevelup/prettier-config@1.0.6) (2023-03-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v2.8.7 ([0090e3e](https://github.com/newlevelup/config/commit/0090e3eef5524d67cfa1e70399ede30f6f8d774f))
+
 ## @newlevelup/prettier-config [1.0.5](https://github.com/newlevelup/config/compare/@newlevelup/prettier-config@1.0.4...@newlevelup/prettier-config@1.0.5) (2023-03-22)
 
 
