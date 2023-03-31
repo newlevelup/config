@@ -1,3 +1,10 @@
+## @newlevelup/eslint-config [1.0.34](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.33...@newlevelup/eslint-config@1.0.34) (2023-03-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.37.0 ([87bba78](https://github.com/newlevelup/config/commit/87bba78a738ccf9e1d37c9e186406cd3e7c0f810))
+
 ## @newlevelup/eslint-config [1.0.33](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.32...@newlevelup/eslint-config@1.0.33) (2023-03-30)
 
 
