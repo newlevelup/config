@@ -1,3 +1,10 @@
+## @newlevelup/stylelint-config [1.1.15](https://github.com/newlevelup/config/compare/@newlevelup/stylelint-config@1.1.14...@newlevelup/stylelint-config@1.1.15) (2023-04-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint to v15.5.0 ([f7aef79](https://github.com/newlevelup/config/commit/f7aef79c8cb279046df864a38db738f9df4fc6c5))
+
 ## @newlevelup/stylelint-config [1.1.14](https://github.com/newlevelup/config/compare/@newlevelup/stylelint-config@1.1.13...@newlevelup/stylelint-config@1.1.14) (2023-04-15)
 
 
