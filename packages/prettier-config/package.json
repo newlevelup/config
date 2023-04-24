@@ -17,10 +17,10 @@
     "test": "prettier --config index.json --loglevel debug --check __tests__"
   },
   "devDependencies": {
-    "prettier": "2.8.7"
+    "prettier": "2.8.8"
   },
   "peerDependencies": {
-    "prettier": "2.8.7"
+    "prettier": "2.8.8"
   },
   "keywords": [
     "config",
