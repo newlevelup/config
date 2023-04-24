@@ -44,7 +44,7 @@
     "remark": "14.0.2",
     "remark-cli": "11.0.0",
     "stylelint": "15.6.0",
-    "syncpack": "9.8.4",
+    "syncpack": "9.8.6",
     "typescript": "5.0.4"
   },
   "resolutions": {
