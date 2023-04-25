@@ -1,3 +1,10 @@
+## @newlevelup/eslint-config [1.0.41](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.40...@newlevelup/eslint-config@1.0.41) (2023-04-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v2.8.8 ([7e3ea0f](https://github.com/newlevelup/config/commit/7e3ea0ffd8a6062d879919e2f2cb0bb022d67ffb))
+
 ## @newlevelup/eslint-config [1.0.40](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.39...@newlevelup/eslint-config@1.0.40) (2023-04-23)
 
 
