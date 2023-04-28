@@ -1,3 +1,10 @@
+## @newlevelup/stylelint-config [1.1.18](https://github.com/newlevelup/config/compare/@newlevelup/stylelint-config@1.1.17...@newlevelup/stylelint-config@1.1.18) (2023-04-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-config-standard-scss to v9 ([0550528](https://github.com/newlevelup/config/commit/05505284f9ddbf55ff81ccab9fbac5b08c269c27))
+
 ## @newlevelup/stylelint-config [1.1.17](https://github.com/newlevelup/config/compare/@newlevelup/stylelint-config@1.1.16...@newlevelup/stylelint-config@1.1.17) (2023-04-25)
 
 
