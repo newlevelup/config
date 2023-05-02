@@ -1,6 +1,6 @@
 {
   "name": "@newlevelup/remark-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "license": "ISC",
   "description": "New Level Up shareable config for remark",
