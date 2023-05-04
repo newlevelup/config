@@ -1,3 +1,10 @@
+## @newlevelup/eslint-config [1.0.44](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.43...@newlevelup/eslint-config@1.0.44) (2023-05-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-storybook to v0.6.12 ([ddf61ff](https://github.com/newlevelup/config/commit/ddf61fffa6d697c4445e3bf70602cb80a3ab348f))
+
 ## @newlevelup/eslint-config [1.0.43](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.42...@newlevelup/eslint-config@1.0.43) (2023-05-02)
 
 
