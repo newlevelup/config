@@ -9822,10 +9822,10 @@ remark-lint-no-duplicate-definitions@^3.0.0:
     unist-util-stringify-position "^3.0.0"
     unist-util-visit "^4.0.0"
 
-remark-lint-no-duplicate-headings@3.1.1, remark-lint-no-duplicate-headings@^3.0.0:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/remark-lint-no-duplicate-headings/-/remark-lint-no-duplicate-headings-3.1.1.tgz#5cee9867b01e296dda7940a7c2546cb43f2be523"
-  integrity sha512-gSO/BngGkxF35Fsctzt3YMwGEZ8F7f71zx7h0Y97DylyL6WXVuWP4saCmQTlbB4FpD0UXEnRROJ6fBFDvJlzOA==
+remark-lint-no-duplicate-headings@3.1.2, remark-lint-no-duplicate-headings@^3.0.0:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-duplicate-headings/-/remark-lint-no-duplicate-headings-3.1.2.tgz#3ab2fa5d71b91ad942dfb40712e404e8a6ea893d"
+  integrity sha512-atBlykGOx9BhpXGp0BUMWxn/T89+hC0Gel8xOIMaFkDhRcLlLVt+/F/aJGhM2Sp0R9NTQ6ejn+JYMLl5Aw2Z+g==
   dependencies:
     "@types/mdast" "^3.0.0"
     mdast-util-to-string "^3.0.0"
