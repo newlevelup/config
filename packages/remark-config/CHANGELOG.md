@@ -1,3 +1,10 @@
+## @newlevelup/remark-config [1.0.5](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.4...@newlevelup/remark-config@1.0.5) (2023-05-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency remark-lint-no-file-name-irregular-characters to v2.1.2 ([5957cd5](https://github.com/newlevelup/config/commit/5957cd5030290c1507247aff312da58c7661384f))
+
 ## @newlevelup/remark-config [1.0.4](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.3...@newlevelup/remark-config@1.0.4) (2023-05-17)
 
 
