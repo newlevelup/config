@@ -1,3 +1,10 @@
+## @newlevelup/remark-config [1.0.4](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.3...@newlevelup/remark-config@1.0.4) (2023-05-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency remark-lint-no-duplicate-headings to v3.1.2 ([ef398fb](https://github.com/newlevelup/config/commit/ef398fbc26b1c76ee324c2cd244ea36e8e7cae19))
+
 ## @newlevelup/remark-config [1.0.3](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.2...@newlevelup/remark-config@1.0.3) (2023-05-17)
 
 
