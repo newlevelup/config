@@ -1,3 +1,10 @@
+## @newlevelup/remark-config [1.0.3](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.2...@newlevelup/remark-config@1.0.3) (2023-05-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency remark-lint-fenced-code-flag to v3.1.2 ([7a6b4bf](https://github.com/newlevelup/config/commit/7a6b4bf8db27081d6d4babed1d738443c6b25476))
+
 ## @newlevelup/remark-config [1.0.2](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.1...@newlevelup/remark-config@1.0.2) (2023-05-02)
 
 
