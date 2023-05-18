@@ -1,3 +1,10 @@
+## @newlevelup/remark-config [1.0.6](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.5...@newlevelup/remark-config@1.0.6) (2023-05-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency remark-preset-lint-consistent to v5.1.2 ([53ed524](https://github.com/newlevelup/config/commit/53ed5245fba7c3780ecfa78fe64f0ae7087bded2))
+
 ## @newlevelup/remark-config [1.0.5](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.4...@newlevelup/remark-config@1.0.5) (2023-05-17)
 
 
