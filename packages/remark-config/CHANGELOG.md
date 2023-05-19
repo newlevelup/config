@@ -1,3 +1,11 @@
+## @newlevelup/remark-config [1.0.7](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.6...@newlevelup/remark-config@1.0.7) (2023-05-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency remark-lint-list-item-indent to v3.1.2 ([a02a5e2](https://github.com/newlevelup/config/commit/a02a5e23cf3194c5d50d601ab7c5daf6453bcc01))
+* **deps:** update dependency remark-preset-lint-recommended to v6.1.3 ([212c669](https://github.com/newlevelup/config/commit/212c6699311dd346ecd15b59191bde21c1417423))
+
 ## @newlevelup/remark-config [1.0.6](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.5...@newlevelup/remark-config@1.0.6) (2023-05-18)
 
 
