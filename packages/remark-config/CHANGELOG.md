@@ -1,3 +1,10 @@
+## @newlevelup/remark-config [1.0.8](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.7...@newlevelup/remark-config@1.0.8) (2023-05-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency remark-lint-no-undefined-references to v4.2.1 ([fc61f08](https://github.com/newlevelup/config/commit/fc61f08c3156008c16746408c35685c8cbb069c1))
+
 ## @newlevelup/remark-config [1.0.7](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.6...@newlevelup/remark-config@1.0.7) (2023-05-19)
 
 
