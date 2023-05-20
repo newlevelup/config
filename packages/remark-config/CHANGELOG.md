@@ -1,3 +1,10 @@
+## @newlevelup/remark-config [1.0.9](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.8...@newlevelup/remark-config@1.0.9) (2023-05-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency remark-preset-lint-markdown-style-guide to v5.1.3 ([3bbeb9f](https://github.com/newlevelup/config/commit/3bbeb9f6a4b376296437a36696488b0022fb0e33))
+
 ## @newlevelup/remark-config [1.0.8](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.7...@newlevelup/remark-config@1.0.8) (2023-05-19)
 
 
