@@ -14,7 +14,8 @@
   "bugs": "https://github.com/newlevelup/config/issues",
   "main": "index.js",
   "files": [
-    "npm-multiple.js"
+    "npm-multiple.js",
+    "npm-standalone.js"
   ],
   "scripts": {
     "test": "echo 'No test specified'"
