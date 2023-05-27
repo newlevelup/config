@@ -1,3 +1,10 @@
+# @newlevelup/release-config [1.1.0](https://github.com/newlevelup/config/compare/@newlevelup/release-config@1.0.6...@newlevelup/release-config@1.1.0) (2023-05-27)
+
+
+### Features
+
+* add public npm release standalone config ([7ad238e](https://github.com/newlevelup/config/commit/7ad238e3fd03b294e90e099c846a84ad5ed756bd))
+
 ## @newlevelup/release-config [1.0.6](https://github.com/newlevelup/config/compare/@newlevelup/release-config@1.0.5...@newlevelup/release-config@1.0.6) (2023-04-15)
 
 
