@@ -1,3 +1,10 @@
+## @newlevelup/release-config [1.1.1](https://github.com/newlevelup/config/compare/@newlevelup/release-config@1.1.0...@newlevelup/release-config@1.1.1) (2023-05-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @semantic-release/github to v8.1.0 ([8a4e2ba](https://github.com/newlevelup/config/commit/8a4e2ba1c975028b5df1b6503605a7f2f029e327))
+
 # @newlevelup/release-config [1.1.0](https://github.com/newlevelup/config/compare/@newlevelup/release-config@1.0.6...@newlevelup/release-config@1.1.0) (2023-05-27)
 
 
