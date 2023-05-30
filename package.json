@@ -25,7 +25,7 @@
     "test": "yarn workspaces run test"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.6.3",
+    "@commitlint/cli": "17.6.5",
     "@newlevelup/browserslist-config": "*",
     "@newlevelup/commitlint-config": "*",
     "@newlevelup/editor-config": "*",
