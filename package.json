@@ -77,7 +77,7 @@
     ]
   },
   "resolutions": {
-    "semantic-release": "21.0.5"
+    "semantic-release": "21.0.6"
   },
   "renovate": {
     "extends": [
