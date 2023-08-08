@@ -1,3 +1,10 @@
+## @newlevelup/eslint-config [1.0.66](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.65...@newlevelup/eslint-config@1.0.66) (2023-08-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.33.1 ([8236984](https://github.com/newlevelup/config/commit/82369844b3e927cfef54f86580c874a79f5e2fa7))
+
 ## @newlevelup/eslint-config [1.0.65](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.64...@newlevelup/eslint-config@1.0.65) (2023-08-06)
 
 
