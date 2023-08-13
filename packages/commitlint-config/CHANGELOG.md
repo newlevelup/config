@@ -1,3 +1,10 @@
+## @newlevelup/commitlint-config [1.1.13](https://github.com/newlevelup/config/compare/@newlevelup/commitlint-config@1.1.12...@newlevelup/commitlint-config@1.1.13) (2023-08-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @commitlint/cli to v17.7.1 ([fe13bca](https://github.com/newlevelup/config/commit/fe13bcaa2526dc1678a4df95ceab111481e608b9))
+
 ## @newlevelup/commitlint-config [1.1.12](https://github.com/newlevelup/config/compare/@newlevelup/commitlint-config@1.1.11...@newlevelup/commitlint-config@1.1.12) (2023-07-24)
 
 
