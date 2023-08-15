@@ -1,3 +1,10 @@
+## @newlevelup/eslint-config [1.0.68](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.67...@newlevelup/eslint-config@1.0.68) (2023-08-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-mdx to v2.2.0 ([f065d9e](https://github.com/newlevelup/config/commit/f065d9edcb510b62529b9bb9b995fdc198f88a5a))
+
 ## @newlevelup/eslint-config [1.0.67](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.66...@newlevelup/eslint-config@1.0.67) (2023-08-14)
 
 
