@@ -1,3 +1,10 @@
+# @newlevelup/renovate-config [1.2.0](https://github.com/newlevelup/config/compare/@newlevelup/renovate-config@1.1.1...@newlevelup/renovate-config@1.2.0) (2023-08-27)
+
+
+### Features
+
+* add renovate auto rebase ([3bedc18](https://github.com/newlevelup/config/commit/3bedc187252069caf8a1f5a21688a9b915c29df6))
+
 ## @newlevelup/renovate-config [1.1.1](https://github.com/newlevelup/config/compare/@newlevelup/renovate-config@1.1.0...@newlevelup/renovate-config@1.1.1) (2022-12-31)
 
 
