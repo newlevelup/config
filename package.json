@@ -32,6 +32,7 @@
     "@newlevelup/eslint-config": "*",
     "@newlevelup/prettier-config": "*",
     "@newlevelup/release-config": "*",
+    "@newlevelup/renovate-config": "*",
     "@newlevelup/remark-config": "*",
     "@newlevelup/stylelint-config": "*",
     "@newlevelup/syncpack-config": "*",

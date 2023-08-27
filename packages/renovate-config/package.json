@@ -33,6 +33,7 @@
       "packageRules": [
         {
           "automerge": true,
+          "rebaseWhen" : "auto",
           "matchUpdateTypes": [
             "minor",
             "patch",

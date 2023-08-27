@@ -6,7 +6,7 @@ New Level Up [shareable config](https://docs.renovatebot.com/config-presets/) fo
 
 > 💡 The purpose of `renovate` is to automate the dependency management such that all your dependencies are up to date. It creates new PR whenever a new version of a package is release to the package registry.
 
-New Level Up Renovate rules come bundled in `@newlevelup/renovate-config`. To enable these rules, add a `renovate` property in your `package.json`. See the [Renovate configuration docs](https://docs.renovatebot.com/configuration-options/) for more details.
+New Level Up Renovate rules come bundled in `@newlevelup/renovate-config`. To enable these rules, add a `renovate` property in your `package.json`. See the [Renovate configuration docs](https://docs.renovatebot.com/configuration-options/) and [npm hosted preset](https://docs.renovatebot.com/config-presets/#npm-hosted-presets) for more details.
 
 ```json
 "renovate": {
