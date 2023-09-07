@@ -44,7 +44,7 @@
     "prettier": "2.8.8",
     "remark": "14.0.3",
     "remark-cli": "11.0.0",
-    "stylelint": "15.10.2",
+    "stylelint": "15.10.3",
     "syncpack": "9.8.6",
     "typescript": "5.1.6"
   },
