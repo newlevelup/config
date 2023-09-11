@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@aashutoshrathi/word-wrap/-/word-wrap-1.2.6.tgz#bd9154aec9983f77b3a034ecaa015c2e4201f6cf"
   integrity sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==
 
-"@amanda-mitchell/semantic-release-npm-multiple@3.8.0":
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/@amanda-mitchell/semantic-release-npm-multiple/-/semantic-release-npm-multiple-3.8.0.tgz#94188a84cc0c7f962ba31329b74d10db929d14d0"
-  integrity sha512-dnkjDuCjhM0PYrAGFzmexkbHv/ZFzu92khEWFE+Qzce0p+JgufNp4t/XJgDnKwxOFt46Re6JO+xPe16BiFhH9g==
+"@amanda-mitchell/semantic-release-npm-multiple@3.9.0":
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/@amanda-mitchell/semantic-release-npm-multiple/-/semantic-release-npm-multiple-3.9.0.tgz#cbc49022dcad6cf9c76ecf27e37a8a17764dd57b"
+  integrity sha512-HKQMM9AbUVpU0jhdx3rt+ckWMRAxzNyHJShMhJkFAQhgd3tZHw2I8VljBcYXghB7QdZSsUbPk05PypBUdS0koA==
   dependencies:
     "@semantic-release/npm" "^9.0.0"
     require-reload "^0.2.2"
