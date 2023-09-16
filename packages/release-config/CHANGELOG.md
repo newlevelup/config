@@ -1,3 +1,10 @@
+## @newlevelup/release-config [1.1.5](https://github.com/newlevelup/config/compare/@newlevelup/release-config@1.1.4...@newlevelup/release-config@1.1.5) (2023-09-16)
+
+
+### Bug Fixes
+
+* **deps:** update semantic-release monorepo ([88b62d3](https://github.com/newlevelup/config/commit/88b62d32e48d392a77752c15d65ee8ccaff8cb7e))
+
 ## @newlevelup/release-config [1.1.4](https://github.com/newlevelup/config/compare/@newlevelup/release-config@1.1.3...@newlevelup/release-config@1.1.4) (2023-09-12)
 
 
