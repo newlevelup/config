@@ -1,6 +1,6 @@
 {
   "name": "@newlevelup/eslint-config",
-  "version": "1.0.71",
+  "version": "1.0.72",
   "private": false,
   "license": "ISC",
   "description": "New Level Up shareable config for ESLint",
