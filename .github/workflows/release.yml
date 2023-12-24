@@ -30,7 +30,7 @@ jobs:
           node-version: 19
 
       - name: Install deps and build (with cache)
-        uses: bahmutov/npm-install@v1.8.35
+        uses: bahmutov/npm-install@v1.8.36
         with:
           install-command: yarn --frozen-lockfile --ignore-scripts
 
