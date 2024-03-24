@@ -1,3 +1,10 @@
+## @newlevelup/remark-config [1.2.1](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.2.0...@newlevelup/remark-config@1.2.1) (2024-03-24)
+
+
+### Bug Fixes
+
+* mdx issue ([d128728](https://github.com/newlevelup/config/commit/d128728832134e74be9d1059937df8ffc3835525))
+
 # @newlevelup/remark-config [1.2.0](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.1.0...@newlevelup/remark-config@1.2.0) (2024-03-24)
 
 
