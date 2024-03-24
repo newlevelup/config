@@ -1,3 +1,10 @@
+# @newlevelup/remark-config [1.2.0](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.1.0...@newlevelup/remark-config@1.2.0) (2024-03-24)
+
+
+### Features
+
+* update remark version ([cfc1dd8](https://github.com/newlevelup/config/commit/cfc1dd8c40168a077dac64621fbca662465f6ac4))
+
 # @newlevelup/remark-config [1.1.0](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.9...@newlevelup/remark-config@1.1.0) (2024-03-24)
 
 
