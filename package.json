@@ -32,8 +32,8 @@
     "@newlevelup/eslint-config": "*",
     "@newlevelup/prettier-config": "*",
     "@newlevelup/release-config": "*",
-    "@newlevelup/renovate-config": "*",
     "@newlevelup/remark-config": "*",
+    "@newlevelup/renovate-config": "*",
     "@newlevelup/stylelint-config": "*",
     "@newlevelup/syncpack-config": "*",
     "@qiwi/multi-semantic-release": "6.7.0",
@@ -49,7 +49,7 @@
     "typescript": "5.3.3"
   },
   "resolutions": {
-    "@typescript-eslint/parser": "5.48.2"
+    "semantic-release": "21.1.2"
   },
   "keywords": [
     "config",
@@ -76,9 +76,6 @@
     "plugins": [
       "@newlevelup/remark-config"
     ]
-  },
-  "resolutions": {
-    "semantic-release": "21.1.2"
   },
   "renovate": {
     "extends": [
