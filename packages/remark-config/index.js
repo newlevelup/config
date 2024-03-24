@@ -1,49 +1,156 @@
-import remarkPresetLintConsistent from 'remark-preset-lint-consistent'
-import remarkPresetLintMarkdownStyleGuide from 'remark-preset-lint-markdown-style-guide'
-import remarkPresetLintRecommended from 'remark-preset-lint-recommended'
+import { unified } from 'unified'
+import unifiedMessageControl from 'unified-message-control'
 
-import remarkLintNoDuplicateHeadings from 'remark-lint-no-duplicate-headings'
-import remarkLintNoFileNameIrregularCharacters from 'remark-lint-no-file-name-irregular-characters'
+import { commentMarker } from 'mdast-comment-marker'
+
+import remarkFrontmatter from 'remark-frontmatter'
+import remarkDirective from 'remark-directive'
+import remarkGfm from 'remark-gfm'
+
+// remark-preset-lint-recommended:
+import remarkLint from 'remark-lint'
+import remarkLintFinalNewline from 'remark-lint-final-newline'
+import remarkLintListItemBulletIndent from 'remark-lint-list-item-bullet-indent'
+import remarkLintNoBlockquoteWithoutMarker from 'remark-lint-no-blockquote-without-marker'
+import remarkLintNoLiteralUrls from 'remark-lint-no-literal-urls'
+import remarkLintOrderedListMarkerStyle from 'remark-lint-ordered-list-marker-style'
+import remarkLintHardBreakSpaces from 'remark-lint-hard-break-spaces'
+import remarkLintNoDuplicateDefinitions from 'remark-lint-no-duplicate-definitions'
+import remarkLintNoHeadingContentIndent from 'remark-lint-no-heading-content-indent'
+import remarkLintNoInlinePadding from 'remark-lint-no-inline-padding'
+import remarkLintNoShortcutReferenceImage from 'remark-lint-no-shortcut-reference-image'
+import remarkLintNoShortcutReferenceLink from 'remark-lint-no-shortcut-reference-link'
 import remarkLintNoUndefinedReferences from 'remark-lint-no-undefined-references'
+import remarkLintNoUnusedDefinitions from 'remark-lint-no-unused-definitions'
 
-import remarkLintListItemIndent from 'remark-lint-list-item-indent'
+import remarkPresetLintConsistent from 'remark-preset-lint-consistent'
+
+import remarkRetext from 'remark-retext'
+import retextEnglish from 'retext-english'
+import retextEquality from 'retext-equality'
+import retextProfanities from 'retext-profanities'
+import retextQuotes from 'retext-quotes'
+import retextSimplify from 'retext-simplify'
+import retextSyntaxMentions from 'retext-syntax-mentions'
 
 import remarkLintFencedCodeFlag from 'remark-lint-fenced-code-flag'
+import remarkPrettier from 'remark-preset-prettier'
 import remarkValidateLink from 'remark-validate-links'
 import remarkToc from 'remark-toc'
 
-import remarkFrontmatter from 'remark-frontmatter'
-import remarkPrettier from 'remark-preset-prettier'
+const retextPreset = [
+  remarkRetext,
+  unified()
+    .use(retextEnglish)
+    .use(retextEquality, {
+      ignore: [
+        'disabled',
+        'host',
+        'hosts',
+        'invalid',
+        'whitespace',
+        'of course',
+        'just',
+        'simple',
+        'simply'
+      ]
+    })
+    .use(retextProfanities, { sureness: 1, ignore: ['black'] })
+    .use(retextQuotes, { preferred: 'straight' })
+    .use(retextSimplify, {
+      ignore: [
+        'accurate',
+        'address',
+        'alternatively',
+        'component',
+        'equivalent',
+        'frequently',
+        'function',
+        'identify',
+        'implement',
+        'initial',
+        'interface',
+        'maintain',
+        'maximum',
+        'minimum',
+        'option',
+        'parameters',
+        'provide',
+        'render',
+        'request',
+        'selection',
+        'submit',
+        'type',
+        'validate',
+        'however',
+        'there is',
+        'forward',
+        'initiate',
+        'additional',
+        'immediately',
+        'multiple',
+        'ensure',
+        'perform',
+        'there are',
+        'it is',
+        'effect'
+      ]
+    })
+    .use(retextSyntaxMentions)
+]
 
-const remarkConfig = {
-  plugins: [
-    // < Add Presets
-    remarkPresetLintConsistent, // Check that markdown is consistent.
-    remarkPresetLintRecommended, // Few recommended rules.
-    remarkPresetLintMarkdownStyleGuide,
-    // < Reconfigure presets
-    [remarkLintNoDuplicateHeadings, false], // < Turn off
-    [remarkLintNoFileNameIrregularCharacters, false], // < Turn off
-    [remarkLintNoUndefinedReferences, false], // < Turn off
-    [remarkLintListItemIndent, 'space'], // < Reconfigure to use space
-    // < Add rules and transformations
-    [remarkLintFencedCodeFlag], // Warn on code block without language flag
-    [remarkValidateLink], // < Warn on invalid links
-    [remarkToc, { heading: 'contents', tight: true }],
-    // < Others
-    remarkFrontmatter, // < Parse frontmatter (---/n ... /n---)
-    remarkPrettier // < Let use prettier for formatting
-  ],
+const messageControlPreset = [
+  unifiedMessageControl,
+  {
+    name: 'retext-simplify',
+    marker: commentMarker,
+    test: 'html'
+  }
+]
+
+export default {
   settings: {
     rule: '-',
     bullet: '-',
     strong: '*',
     emphasis: '_',
     listItemIndent: 'one',
-    tightDefinitions: true,
-    fences: true
-  }
-  // See <https://github.com/remarkjs/remark/tree/main/packages/remark-stringify> for more options.
-}
+    tightDefinitions: true
+  },
+  plugins: [
+    remarkFrontmatter, // YAML in MD
+    remarkGfm, // GitHub Flavored Markdown
+    remarkDirective, // Admonitions
+    remarkPresetLintConsistent,
 
-export default remarkConfig
+    // remark-preset-lint-recommended:
+    remarkLint,
+    // Unix compatibility.
+    remarkLintFinalNewline,
+    // Rendering across vendors differs greatly if using other styles.
+    remarkLintListItemBulletIndent,
+    // [remarkLintListItemIndent, 'tab-size'], // Incompatible with MDX
+    remarkLintNoBlockquoteWithoutMarker,
+    remarkLintNoLiteralUrls,
+    [remarkLintOrderedListMarkerStyle, '.'],
+
+    // Mistakes.
+    remarkLintHardBreakSpaces,
+    remarkLintNoDuplicateDefinitions,
+    remarkLintNoHeadingContentIndent,
+    remarkLintNoInlinePadding,
+    remarkLintNoShortcutReferenceImage,
+    remarkLintNoShortcutReferenceLink,
+    remarkLintNoUndefinedReferences,
+    remarkLintNoUnusedDefinitions,
+    retextPreset,
+    messageControlPreset,
+
+    // Add rules and transformations.
+    [remarkLintFencedCodeFlag], // Warn on code block without language flag
+    [remarkValidateLink], // Warn on invalid links
+    [remarkToc, { heading: 'contents', tight: true }],
+
+    remarkPrettier // Let use prettier for formatting
+  ]
+}
