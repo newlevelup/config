@@ -1,3 +1,13 @@
+## @newlevelup/eslint-config [1.0.75](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.74...@newlevelup/eslint-config@1.0.75) (2024-03-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8.56.0 ([4c55fec](https://github.com/newlevelup/config/commit/4c55fecce2d85041cedced32bff2e2ee3eaffe1e))
+* **deps:** update dependency eslint-plugin-import to v2.29.1 ([5789018](https://github.com/newlevelup/config/commit/57890186028d2082c427b4ea1cf8a951c5fe3dbb))
+* **deps:** update dependency eslint-plugin-jsx-a11y to v6.8.0 ([313ea1b](https://github.com/newlevelup/config/commit/313ea1b7c26bc07fbe1e68306180f1546dca98f1))
+* **deps:** update dependency eslint-plugin-mdx to v2.3.2 ([b822693](https://github.com/newlevelup/config/commit/b8226931ea9c24972b1908ee6f094e9bce2b7697))
+
 ## @newlevelup/eslint-config [1.0.74](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.73...@newlevelup/eslint-config@1.0.74) (2023-12-28)
 
 
