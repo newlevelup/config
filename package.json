@@ -42,8 +42,8 @@
     "is-ci": "3.0.1",
     "npm-run-all": "4.1.5",
     "prettier": "2.8.8",
-    "remark": "14.0.3",
-    "remark-cli": "11.0.0",
+    "remark": "15.0.1",
+    "remark-cli": "12.0.0",
     "stylelint": "15.11.0",
     "syncpack": "9.8.6",
     "typescript": "5.3.3"
