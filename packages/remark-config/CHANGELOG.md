@@ -1,3 +1,10 @@
+# @newlevelup/remark-config [1.1.0](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.9...@newlevelup/remark-config@1.1.0) (2024-03-24)
+
+
+### Features
+
+* add more markdown lints ([a1f9fed](https://github.com/newlevelup/config/commit/a1f9fed4ccdd054ada60acdbbef0b007b326c100))
+
 ## @newlevelup/remark-config [1.0.9](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.0.8...@newlevelup/remark-config@1.0.9) (2023-05-20)
 
 
