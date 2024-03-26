@@ -1,3 +1,11 @@
+# @newlevelup/syncpack-config [1.4.0](https://github.com/newlevelup/config/compare/@newlevelup/syncpack-config@1.3.0...@newlevelup/syncpack-config@1.4.0) (2024-03-26)
+
+
+### Features
+
+* update sort links ([ee454fe](https://github.com/newlevelup/config/commit/ee454fe04097ffcfc4df114c123ba0c615fb7318))
+* update syncpack peer ([38107c1](https://github.com/newlevelup/config/commit/38107c174b6472ef441332eda97004c4f16613aa))
+
 # @newlevelup/syncpack-config [1.3.0](https://github.com/newlevelup/config/compare/@newlevelup/syncpack-config@1.2.0...@newlevelup/syncpack-config@1.3.0) (2024-03-26)
 
 
