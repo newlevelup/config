@@ -1,3 +1,10 @@
+# @newlevelup/renovate-config [1.3.0](https://github.com/newlevelup/config/compare/@newlevelup/renovate-config@1.2.0...@newlevelup/renovate-config@1.3.0) (2024-03-26)
+
+
+### Features
+
+* update syncpack ([4d8a223](https://github.com/newlevelup/config/commit/4d8a223289a88aef6cc349af5deea2b4cd945356))
+
 # @newlevelup/renovate-config [1.2.0](https://github.com/newlevelup/config/compare/@newlevelup/renovate-config@1.1.1...@newlevelup/renovate-config@1.2.0) (2023-08-27)
 
 
