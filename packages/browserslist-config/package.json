@@ -1,7 +1,6 @@
 {
   "name": "@newlevelup/browserslist-config",
   "version": "1.0.0",
-  "private": false,
   "license": "ISC",
   "description": "New Level Up shareable config for Browserslist",
   "author": "New Level Up <hello@newlevelup.co>",
