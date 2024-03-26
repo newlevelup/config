@@ -1,13 +1,14 @@
 module.exports = {
   filter: '.',
   indent: '  ',
-  dev: true,
-  peer: false,
-  prod: true,
-  overrides: true,
-  pnpmOverrides: true,
-  resolutions: true,
-  workspace: false,
+  dependencyTypes: [
+    'dev',
+    'prod',
+    'overrides',
+    'pnpmOverrides',
+    'resolutions',
+    'local'
+  ],
   semverGroups: [],
   semverRange: '^',
   sortAz: [
