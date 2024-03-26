@@ -1,14 +1,7 @@
 module.exports = {
   filter: '.',
   indent: '  ',
-  dependencyTypes: [
-    'dev',
-    'prod',
-    'overrides',
-    'pnpmOverrides',
-    'resolutions',
-    'local'
-  ],
+  dependencyTypes: ['dev', 'prod', 'overrides', 'pnpmOverrides', 'resolutions'],
   semverGroups: [],
   semverRange: '^',
   sortAz: [
@@ -25,6 +18,8 @@ module.exports = {
     'serviceName',
     'version',
     'private',
+    'bundled',
+    'backstage',
     'license',
     'description',
     'author',
