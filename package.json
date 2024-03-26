@@ -49,7 +49,7 @@
     "typescript": "5.3.3"
   },
   "resolutions": {
-    "semantic-release": "21.1.2"
+    "semantic-release": "23.0.6"
   },
   "keywords": [
     "config",
