@@ -1,3 +1,10 @@
+# @newlevelup/release-config [1.2.0](https://github.com/newlevelup/config/compare/@newlevelup/release-config@1.1.5...@newlevelup/release-config@1.2.0) (2024-03-26)
+
+
+### Features
+
+* update syncpack ([4d8a223](https://github.com/newlevelup/config/commit/4d8a223289a88aef6cc349af5deea2b4cd945356))
+
 ## @newlevelup/release-config [1.1.5](https://github.com/newlevelup/config/compare/@newlevelup/release-config@1.1.4...@newlevelup/release-config@1.1.5) (2023-09-16)
 
 

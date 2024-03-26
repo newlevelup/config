@@ -1,6 +1,6 @@
 {
   "name": "@newlevelup/release-config",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "license": "ISC",
   "description": "New Level Up shareable config for semantic-release",
   "author": "New Level Up <hello@newlevelup.co>",
