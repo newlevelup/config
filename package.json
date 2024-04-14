@@ -46,7 +46,7 @@
     "remark-cli": "12.0.0",
     "stylelint": "15.11.0",
     "syncpack": "11.2.1",
-    "typescript": "5.3.3"
+    "typescript": "5.4.5"
   },
   "resolutions": {
     "semantic-release": "21.1.2"
