@@ -22,10 +22,11 @@
     "lint:js": "eslint --cache .",
     "prepare": "is-ci || husky install",
     "pretest": "yarn lint",
-    "test": "yarn workspaces run test"
+    "test": "yarn workspaces run test",
+    "update:packages": "syncpack update"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.8.1",
+    "@commitlint/cli": "19.3.0",
     "@newlevelup/browserslist-config": "*",
     "@newlevelup/commitlint-config": "*",
     "@newlevelup/editor-config": "*",
@@ -36,20 +37,20 @@
     "@newlevelup/renovate-config": "*",
     "@newlevelup/stylelint-config": "*",
     "@newlevelup/syncpack-config": "*",
-    "@qiwi/multi-semantic-release": "6.7.0",
-    "eslint": "8.57.0",
+    "@qiwi/multi-semantic-release": "7.1.1",
+    "eslint": "9.3.0",
     "husky": "9.0.11",
     "is-ci": "3.0.1",
-    "npm-run-all2": "5.0.0",
-    "prettier": "2.8.8",
+    "npm-run-all": "4.1.5",
+    "prettier": "3.2.5",
     "remark": "15.0.1",
-    "remark-cli": "12.0.0",
-    "stylelint": "15.11.0",
-    "syncpack": "11.2.1",
+    "remark-cli": "12.0.1",
+    "stylelint": "16.6.1",
+    "syncpack": "12.3.2",
     "typescript": "5.4.5"
   },
   "resolutions": {
-    "semantic-release": "21.1.2"
+    "semantic-release": "23.1.1"
   },
   "keywords": [
     "config",

@@ -19,16 +19,15 @@
   },
   "dependencies": {
     "stylelint-config-css-modules": "4.4.0",
-    "stylelint-config-prettier": "9.0.5",
-    "stylelint-config-standard-scss": "9.0.0",
-    "stylelint-prettier": "4.1.0"
+    "stylelint-config-standard-scss": "13.1.0",
+    "stylelint-prettier": "5.0.0"
   },
   "devDependencies": {
-    "stylelint": "15.11.0"
+    "stylelint": "16.6.1"
   },
   "peerDependencies": {
-    "prettier": "2.8.8",
-    "stylelint": "15.11.0"
+    "prettier": "3.2.5",
+    "stylelint": "16.6.1"
   },
   "keywords": [
     "config",

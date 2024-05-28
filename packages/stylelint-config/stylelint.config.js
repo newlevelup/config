@@ -2,7 +2,6 @@ module.exports = {
   extends: [
     'stylelint-config-standard-scss',
     'stylelint-prettier/recommended',
-    'stylelint-config-css-modules'
   ],
   rules: {
     // Handle collision between SCSS and CSS Modules rules

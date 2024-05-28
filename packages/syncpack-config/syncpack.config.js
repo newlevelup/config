@@ -1,7 +1,7 @@
 module.exports = {
   filter: '.',
   indent: '  ',
-  dependencyTypes: ['dev', 'prod', 'overrides', 'pnpmOverrides', 'resolutions'],
+  dependencyTypes: ['dev', 'peer', 'prod', 'overrides', 'pnpmOverrides', 'resolutions'],
   semverGroups: [],
   semverRange: '^',
   sortAz: [
