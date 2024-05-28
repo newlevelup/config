@@ -24,10 +24,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Use Node.js 19.x
+      - name: Use Node.js 20.x
         uses: actions/setup-node@v4
         with:
-          node-version: 19
+          node-version: 20.11.1
 
       - name: Install deps and build (with cache)
         uses: bahmutov/npm-install@v1.10.1
