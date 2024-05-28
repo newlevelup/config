@@ -1,3 +1,10 @@
+## @newlevelup/eslint-config [1.0.80](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.79...@newlevelup/eslint-config@1.0.80) (2024-05-28)
+
+
+### Bug Fixes
+
+* **deps:** replace dependency eslint-plugin-node with eslint-plugin-n 14.0.0 ([aaa1ec9](https://github.com/newlevelup/config/commit/aaa1ec9709ac05161c12ce0aa3f0a68d010d9672))
+
 ## @newlevelup/eslint-config [1.0.79](https://github.com/newlevelup/config/compare/@newlevelup/eslint-config@1.0.78...@newlevelup/eslint-config@1.0.79) (2024-04-20)
 
 
