@@ -5217,10 +5217,10 @@ eslint-compat-utils@^0.5.0:
   dependencies:
     semver "^7.5.4"
 
-eslint-config-love@62.0.0:
-  version "62.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-love/-/eslint-config-love-62.0.0.tgz#61e6ebd9d9fb038a7b4f09723d883c921757a501"
-  integrity sha512-n1BxDLh53HhoE3elbcjhaPcW4PoZ9nRLIUUwyAZyzn2RBiC3Py6Dw20uMYLSuUzgexTaMMZUd4cC0u/jwyTgaA==
+eslint-config-love@62.0.1:
+  version "62.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-love/-/eslint-config-love-62.0.1.tgz#a38e7f7020234133c0e3c8e0e079c83fdeab3851"
+  integrity sha512-9eNmiZFWJQR0CUEaPDYHchvuWm8SNjZdVI5sOz/mL/LCy51Mg+/3bg++v7Pq1moajgiT8cM8JZ9DIMN9vhtuLg==
   dependencies:
     eslint-plugin-import "^2.25.2"
     eslint-plugin-n "^17.0.0"
