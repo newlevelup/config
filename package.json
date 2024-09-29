@@ -50,7 +50,7 @@
     "typescript": "5.6.2"
   },
   "resolutions": {
-    "semantic-release": "24.1.1"
+    "semantic-release": "24.1.2"
   },
   "keywords": [
     "config",
