@@ -29,7 +29,7 @@
     "@semantic-release/release-notes-generator": "14.0.1"
   },
   "peerDependencies": {
-    "semantic-release": "24.1.2"
+    "semantic-release": "24.1.3"
   },
   "keywords": [
     "config",
