@@ -1153,12 +1153,12 @@
   resolved "https://registry.yarnpkg.com/@dual-bundle/import-meta-resolve/-/import-meta-resolve-4.1.0.tgz#519c1549b0e147759e7825701ecffd25e5819f7b"
   integrity sha512-+nxncfwHM5SgAtrVzgpzJOI1ol0PkumhVo469KCf9lUi21IGcY90G98VuHm9VRrUypmAzawAHO9bs6hqeADaVg==
 
-"@effect/schema@0.69.0":
-  version "0.69.0"
-  resolved "https://registry.yarnpkg.com/@effect/schema/-/schema-0.69.0.tgz#40d038f291623df4e8de4a0be896484a0c3ab7c1"
-  integrity sha512-dqVnriWqM8TT8d+5vgg1pH4ZOXfs7tQBVAY5N7PALzIOlZamsBKQCdwvMMqremjSkKITckF8/cIj1eQZHQeg7Q==
+"@effect/schema@0.71.1":
+  version "0.71.1"
+  resolved "https://registry.yarnpkg.com/@effect/schema/-/schema-0.71.1.tgz#4d344b3c44b2490fb6d6698439956a25ae18ea0f"
+  integrity sha512-XvFttkuBUL3s4ofZ+OVE4Pagb4wsPG8laSS8iO5lVI9Yt1zIM49uxlYIA2BJ45jjS3MdplUepC0NilotKnjU2A==
   dependencies:
-    fast-check "^3.20.0"
+    fast-check "^3.21.0"
 
 "@eslint-community/eslint-utils@^4.1.2", "@eslint-community/eslint-utils@^4.2.0", "@eslint-community/eslint-utils@^4.4.0":
   version "4.4.0"
@@ -5001,10 +5001,10 @@ editorconfig@2.0.0:
     minimatch "9.0.2"
     semver "^7.5.3"
 
-effect@3.5.7:
-  version "3.5.7"
-  resolved "https://registry.yarnpkg.com/effect/-/effect-3.5.7.tgz#be94dc8d9f46319fc21013afaf8575c6ca346450"
-  integrity sha512-PzEncc0R3ZZhqNTR+fXrSX+anF/4Ai6ftKie1ZrUUWY7WPE7d4KjB6wjpeWoGMOC7xWFPGSkBBUudyJN1mx3+g==
+effect@3.6.5:
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/effect/-/effect-3.6.5.tgz#be177847e69273ea9ed95bebe03bd672c5af474b"
+  integrity sha512-NhopZTAKljaAlR0CEroOAJJngdqg7bzlnWcDrCwh4d2WNVohVbBtUS4SGqLt8tUy7IFsTWATYiUtmhDG+YELjA==
 
 email-addresses@5.0.0:
   version "5.0.0"
@@ -5720,10 +5720,17 @@ extract-zip@2.0.1:
   optionalDependencies:
     "@types/yauzl" "^2.9.1"
 
-fast-check@3.20.0, fast-check@^3.20.0:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/fast-check/-/fast-check-3.20.0.tgz#287a3b6b9c45e8d9121c157b437b465bf27befa6"
-  integrity sha512-pZIjqLpOZgdSLecec4GKC3Zq5702MZ34upMKxojnNVSWA0K64V3pXOBT1Wdsrc3AphLtzRBbsi8bRWF4TUGmUg==
+fast-check@3.21.0:
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/fast-check/-/fast-check-3.21.0.tgz#f9957cb4bc81b8529ae560ff5f772d9c147fc21c"
+  integrity sha512-QpmbiqRFRZ+SIlBJh6xi5d/PgXciUc/xWKc4Vi2RWEHHIRx6oM3f0fWNna++zP9VB5HUBTObUK9gTKQP3vVcrQ==
+  dependencies:
+    pure-rand "^6.1.0"
+
+fast-check@^3.21.0:
+  version "3.22.0"
+  resolved "https://registry.yarnpkg.com/fast-check/-/fast-check-3.22.0.tgz#1a8153e9d6fbdcc60b818f447cbb9cac1fdd8fb6"
+  integrity sha512-8HKz3qXqnHYp/VCNn2qfjHdAdcI8zcSqOyX64GOMukp7SL2bfzfeDKjSd+UyECtejccaZv3LcvZTm9YDD22iCQ==
   dependencies:
     pure-rand "^6.1.0"
 
@@ -8894,13 +8901,6 @@ minimalistic-assert@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz#2e194de044626d4a10e7f7fbc00ce73e83e4d5c7"
   integrity sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==
-
-minimatch@10.0.1:
-  version "10.0.1"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-10.0.1.tgz#ce0521856b453c86e25f2c4c0d03e6ff7ddc440b"
-  integrity sha512-ethXTt3SGGR+95gudmqJ1eNhRO7eGEGIgYA9vnPatK4/etz2MEVDno5GMCibdMTuBMyElzIlgxMna3K94XDIDQ==
-  dependencies:
-    brace-expansion "^2.0.1"
 
 "minimatch@2 || 3", minimatch@^3.0.4, minimatch@^3.1.1, minimatch@^3.1.2:
   version "3.1.2"
@@ -12788,21 +12788,22 @@ synckit@^0.9.0, synckit@^0.9.1:
     "@pkgr/core" "^0.1.0"
     tslib "^2.6.2"
 
-syncpack@12.4.0:
-  version "12.4.0"
-  resolved "https://registry.yarnpkg.com/syncpack/-/syncpack-12.4.0.tgz#939ffc3d5fa52b5e73064a3863c15a71e3426d7d"
-  integrity sha512-iVDbuxW1zpjC8IuGLLgTjfgnAjr1iTd+In//RGUi49nKT8f6BWYSEAt496fj4eGNmYeajUiGngBHl15Jb++RBg==
+syncpack@13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/syncpack/-/syncpack-13.0.0.tgz#4b2eaa46ca9063f8a5b326efda75d0a9505eda08"
+  integrity sha512-0PIoEWMP2+YkllkcZXw8N9d2sFqpmr8ULBdvms3gc1vG5tnccEMqc6flxHYnF/N+NTTcUnf0J+4xAD5hwH6XGQ==
   dependencies:
-    "@effect/schema" "0.69.0"
+    "@effect/schema" "0.71.1"
     chalk "5.3.0"
     chalk-template "1.1.0"
     commander "12.1.0"
     cosmiconfig "9.0.0"
-    effect "3.5.7"
+    effect "3.6.5"
     enquirer "2.4.1"
-    fast-check "3.20.0"
+    fast-check "3.21.0"
     globby "14.0.2"
-    minimatch "10.0.1"
+    jsonc-parser "3.3.1"
+    minimatch "9.0.5"
     npm-package-arg "11.0.3"
     ora "8.0.1"
     prompts "2.4.2"
