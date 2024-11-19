@@ -1,3 +1,34 @@
+# @newlevelup/release-config [1.3.0](https://github.com/newlevelup/config/compare/@newlevelup/release-config@1.2.0...@newlevelup/release-config@1.3.0) (2024-11-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @amanda-mitchell/semantic-release-npm-multiple to v3.11.1 ([#437](https://github.com/newlevelup/config/issues/437)) ([420ffb1](https://github.com/newlevelup/config/commit/420ffb1b7a8d1b2b4bbf4af9cebc27df0a47a51c))
+* **deps:** update dependency @semantic-release/github to v10.0.6 ([5eb5a3d](https://github.com/newlevelup/config/commit/5eb5a3d22678e7874d4a52090aa5d3b86538a08f))
+* **deps:** update dependency @semantic-release/github to v10.0.7 ([b9bf748](https://github.com/newlevelup/config/commit/b9bf7488975313aa08a3aa50fe7278f2b3e2201a))
+* **deps:** update dependency @semantic-release/github to v10.1.0 ([7a7d04b](https://github.com/newlevelup/config/commit/7a7d04bca8935815365f21d65d29e1f29beb2e6c))
+* **deps:** update dependency @semantic-release/github to v10.1.1 ([4e72f5c](https://github.com/newlevelup/config/commit/4e72f5c9c28d1da8e33d48932735db90be9bd13b))
+* **deps:** update dependency @semantic-release/github to v10.1.3 ([6fa73f2](https://github.com/newlevelup/config/commit/6fa73f23830fc13962ef5eb6eea889c558cfd65c))
+* **deps:** update dependency @semantic-release/github to v10.1.4 ([9c8222f](https://github.com/newlevelup/config/commit/9c8222f7b4bd46355585ab63b700d306b4aa94b6))
+* **deps:** update dependency @semantic-release/github to v10.1.6 ([f6e01af](https://github.com/newlevelup/config/commit/f6e01af6fad23e5a11891361d317e4a5587e6480))
+* **deps:** update dependency @semantic-release/github to v10.1.7 ([3a7fa9c](https://github.com/newlevelup/config/commit/3a7fa9c5772a489e95c2fbdccb18a444c48bca08))
+* **deps:** update dependency @semantic-release/github to v10.3.1 ([5375529](https://github.com/newlevelup/config/commit/537552983ff094334d0df41d478a719b6ca8c8e9))
+* **deps:** update dependency @semantic-release/github to v10.3.3 ([f54155f](https://github.com/newlevelup/config/commit/f54155f5b59a4aa7baa96261d5ef850376f46539))
+* **deps:** update dependency @semantic-release/github to v10.3.4 ([8e7a4b4](https://github.com/newlevelup/config/commit/8e7a4b45bf3a4d38be9acbb94284fc780a24cc1f))
+* **deps:** update dependency @semantic-release/github to v10.3.5 ([0d48f4d](https://github.com/newlevelup/config/commit/0d48f4daa60dd08e763250ffe6d60a48d035bdcb))
+* **deps:** update dependency @semantic-release/release-notes-generator to v14.0.1 ([b974cad](https://github.com/newlevelup/config/commit/b974cad539182e3af48da9b72fdcc948072c2e29))
+* **deps:** update dependency semantic-release to v24.1.0 ([cfc58ab](https://github.com/newlevelup/config/commit/cfc58aba7a998f64ea5c86a4f934a4dda52e11d0))
+* **deps:** update dependency semantic-release to v24.1.1 ([439c179](https://github.com/newlevelup/config/commit/439c179bec4bf93045572899892f80c69bc8fb2f))
+* **deps:** update dependency semantic-release to v24.1.2 ([c74039b](https://github.com/newlevelup/config/commit/c74039bbe529b9da283a9cb2e22c45a867e923fc))
+* **deps:** update dependency semantic-release to v24.1.3 ([feb63b0](https://github.com/newlevelup/config/commit/feb63b05ccc214e1a51acb1e7e9e73b25c9613eb))
+* **deps:** update dependency semantic-release to v24.2.0 ([c361b26](https://github.com/newlevelup/config/commit/c361b26f4eb19a8c8ed21e4d60d52f9da41b81cc))
+* **deps:** update semantic-release monorepo ([994ecc9](https://github.com/newlevelup/config/commit/994ecc9341cb8bb101394943633d82f7b32ec4a6))
+
+
+### Features
+
+* update packages ([6d45ea5](https://github.com/newlevelup/config/commit/6d45ea59bc49bd2047fc1edd14774db5087cb089))
+
 # @newlevelup/release-config [1.2.0](https://github.com/newlevelup/config/compare/@newlevelup/release-config@1.1.5...@newlevelup/release-config@1.2.0) (2024-03-26)
 
 
