@@ -20,7 +20,7 @@
     "test": "echo 'No test specified'"
   },
   "dependencies": {
-    "@amanda-mitchell/semantic-release-npm-multiple": "3.9.0",
+    "@amanda-mitchell/semantic-release-npm-multiple": "3.11.1",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "13.0.0",
     "@semantic-release/git": "10.0.1",
