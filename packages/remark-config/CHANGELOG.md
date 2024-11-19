@@ -1,3 +1,15 @@
+# @newlevelup/remark-config [1.3.0](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.2.1...@newlevelup/remark-config@1.3.0) (2024-11-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency remark-validate-links to v13.0.2 ([5687723](https://github.com/newlevelup/config/commit/5687723027a45ff741fbf5288d6599fdac201678))
+
+
+### Features
+
+* update packages ([6d45ea5](https://github.com/newlevelup/config/commit/6d45ea59bc49bd2047fc1edd14774db5087cb089))
+
 ## @newlevelup/remark-config [1.2.1](https://github.com/newlevelup/config/compare/@newlevelup/remark-config@1.2.0...@newlevelup/remark-config@1.2.1) (2024-03-24)
 
 
