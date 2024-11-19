@@ -1,6 +1,6 @@
 {
   "name": "@newlevelup/eslint-config",
-  "version": "1.0.80",
+  "version": "1.1.0",
   "private": false,
   "license": "ISC",
   "description": "New Level Up shareable config for ESLint",
@@ -31,7 +31,6 @@
     "eslint-plugin-json-format": "2.0.1",
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-mdx": "3.1.5",
-    "eslint-plugin-n": "17.7.0",
     "eslint-plugin-n": "17.13.2",
     "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-promise": "6.6.0",
