@@ -1,3 +1,10 @@
+# @newlevelup/renovate-config [1.4.0](https://github.com/newlevelup/config/compare/@newlevelup/renovate-config@1.3.0...@newlevelup/renovate-config@1.4.0) (2024-11-19)
+
+
+### Features
+
+* update packages ([6d45ea5](https://github.com/newlevelup/config/commit/6d45ea59bc49bd2047fc1edd14774db5087cb089))
+
 # @newlevelup/renovate-config [1.3.0](https://github.com/newlevelup/config/compare/@newlevelup/renovate-config@1.2.0...@newlevelup/renovate-config@1.3.0) (2024-03-26)
 
 
