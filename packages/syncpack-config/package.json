@@ -1,6 +1,6 @@
 {
   "name": "@newlevelup/syncpack-config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "license": "ISC",
   "description": "New Level Up shareable config for syncpack",
   "author": "New Level Up <hello@newlevelup.co>",
