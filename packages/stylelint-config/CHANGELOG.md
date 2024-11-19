@@ -1,3 +1,25 @@
+# @newlevelup/stylelint-config [1.2.0](https://github.com/newlevelup/config/compare/@newlevelup/stylelint-config@1.1.31...@newlevelup/stylelint-config@1.2.0) (2024-11-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v3.3.0 ([973c290](https://github.com/newlevelup/config/commit/973c290ca0ad95cbe9ba9ad1ba7aa9f28a9ab2d7))
+* **deps:** update dependency prettier to v3.3.1 ([8a48746](https://github.com/newlevelup/config/commit/8a48746633cee3cb6bb61fe6345f027ed1999b12))
+* **deps:** update dependency prettier to v3.3.2 ([a0e64f7](https://github.com/newlevelup/config/commit/a0e64f7908e4cd2e90a73083a9311b939350f955))
+* **deps:** update dependency prettier to v3.3.3 ([d055ce3](https://github.com/newlevelup/config/commit/d055ce301e498157696b3e186c14da69f76b2850))
+* **deps:** update dependency stylelint to v16.10.0 ([f0565a4](https://github.com/newlevelup/config/commit/f0565a43311733a6b11467c18ad6c174bfd60542))
+* **deps:** update dependency stylelint to v16.7.0 ([abae913](https://github.com/newlevelup/config/commit/abae9133d3e4c4e61090797921bda020b06e683a))
+* **deps:** update dependency stylelint to v16.8.1 ([b01afa3](https://github.com/newlevelup/config/commit/b01afa31d77f1436b0dd1e6f30b6149bf9c85bde))
+* **deps:** update dependency stylelint to v16.8.2 ([55c53b3](https://github.com/newlevelup/config/commit/55c53b35c309d8115adb4fbb52af77c335e95388))
+* **deps:** update dependency stylelint to v16.9.0 ([babfef3](https://github.com/newlevelup/config/commit/babfef3f753e6322e406dccc721b5374fc5fbe7e))
+* **deps:** update dependency stylelint-prettier to v5.0.1 ([0969ab1](https://github.com/newlevelup/config/commit/0969ab148483980ed01af01386360cd86bfd953f))
+* **deps:** update dependency stylelint-prettier to v5.0.2 ([5fcec3f](https://github.com/newlevelup/config/commit/5fcec3fdb773be13f277d0c2ef28b73a5e6afa1d))
+
+
+### Features
+
+* update packages ([6d45ea5](https://github.com/newlevelup/config/commit/6d45ea59bc49bd2047fc1edd14774db5087cb089))
+
 ## @newlevelup/stylelint-config [1.1.31](https://github.com/newlevelup/config/compare/@newlevelup/stylelint-config@1.1.30...@newlevelup/stylelint-config@1.1.31) (2024-03-24)
 
 
