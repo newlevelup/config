@@ -1,3 +1,10 @@
+## @newlevelup/commitlint-config [1.2.1](https://github.com/newlevelup/config/compare/@newlevelup/commitlint-config@1.2.0...@newlevelup/commitlint-config@1.2.1) (2024-11-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @commitlint/cli to v19.6.0 ([#442](https://github.com/newlevelup/config/issues/442)) ([eb0360d](https://github.com/newlevelup/config/commit/eb0360d3465e61d3088fd8304b83ff279e0d171e))
+
 # @newlevelup/commitlint-config [1.2.0](https://github.com/newlevelup/config/compare/@newlevelup/commitlint-config@1.1.15...@newlevelup/commitlint-config@1.2.0) (2024-11-19)
 
 
