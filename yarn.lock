@@ -10991,9 +10991,9 @@ retext-profanities@^8.0.0:
     vfile "^6.0.0"
 
 retext-quotes@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/retext-quotes/-/retext-quotes-6.0.0.tgz#f3b41d95c020d6e695feafaa23338d201ad19c32"
-  integrity sha512-LvWVCSqqvDQvIT8WPXryUBrmgMl7EO3pb4wenJ0NNywpy3/4Kbc3rGULlfsq7K80xEARQ239ujWu9nUqdMTVLA==
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/retext-quotes/-/retext-quotes-6.0.2.tgz#c0c7463c3cabcdb46f4c4ed95f1680d326d57da7"
+  integrity sha512-J+JdHDvWDkibjcld7pEag2/rLoIA0NNbqdHfvv0wrpGv6nsYbEy6TKQi5oRcNO6TzgIH5CRQXs2qiwDr/PbP+g==
   dependencies:
     "@types/nlcst" "^2.0.0"
     nlcst-to-string "^4.0.0"
