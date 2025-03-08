@@ -22,14 +22,14 @@
   "dependencies": {
     "@amanda-mitchell/semantic-release-npm-multiple": "3.11.1",
     "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "13.0.0",
+    "@semantic-release/commit-analyzer": "13.0.1",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "10.3.5",
     "@semantic-release/npm": "12.0.1",
-    "@semantic-release/release-notes-generator": "14.0.1"
+    "@semantic-release/release-notes-generator": "14.0.3"
   },
   "peerDependencies": {
-    "semantic-release": "24.2.0"
+    "semantic-release": "24.2.3"
   },
   "keywords": [
     "config",
