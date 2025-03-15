@@ -26,7 +26,7 @@
     "update:packages": "syncpack update"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.6.0",
+    "@commitlint/cli": "19.8.0",
     "@newlevelup/browserslist-config": "*",
     "@newlevelup/commitlint-config": "*",
     "@newlevelup/editor-config": "*",
