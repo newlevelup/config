@@ -45,7 +45,7 @@
   },
   "peerDependencies": {
     "eslint": "9.23.0",
-    "prettier": "3.4.2"
+    "prettier": "3.5.3"
   },
   "keywords": [
     "config",
