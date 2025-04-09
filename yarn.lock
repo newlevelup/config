@@ -10729,9 +10729,9 @@ remark-preset-prettier@^2.0.1:
   integrity sha512-kTJRYWjcLBqVZZT49uEyWoZXb2DCIADITTizv7zj9SK/Msofl1syVqO7zcLlH6MCkXk3W0dyeKLcmiIyoLegkQ==
 
 remark-retext@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/remark-retext/-/remark-retext-6.0.0.tgz#97c20ed898bd9d574943378af842bf007b53c57b"
-  integrity sha512-VYs0p+3G4DKm/KtWx7LV8YPbyX4CjBf1SZcEk2usEv3QK6JK4g5EfurDAPUmGVZOx/NcqOiNbozfGqpl2HQfTA==
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/remark-retext/-/remark-retext-6.0.1.tgz#bebff574f4d988b738537e7daffdc16b1fac1032"
+  integrity sha512-GZk8Fa/h88+OhmUlJuqEFX4Pi7OvgI3pq1bHyr/NJibTQxANH8/aZGoOflh4zDAwVDdvgoEk5XOJsWQ8UfjFnA==
   dependencies:
     "@types/mdast" "^4.0.0"
     "@types/nlcst" "^2.0.0"
