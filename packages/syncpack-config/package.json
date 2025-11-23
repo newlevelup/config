@@ -17,10 +17,10 @@
     "test": "syncpack format --config syncpack.config.js --source __tests__/example.json"
   },
   "devDependencies": {
-    "syncpack": "12.4.0"
+    "syncpack": "13.0.4"
   },
   "peerDependencies": {
-    "syncpack": "12.4.0"
+    "syncpack": "13.0.4"
   },
   "keywords": [
     "config",
