@@ -35,12 +35,12 @@
     "eslint-plugin-prettier": "5.5.5",
     "eslint-plugin-promise": "6.6.0",
     "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-react-hooks": "7.0.1",
     "eslint-plugin-storybook": "0.12.0",
     "eslint-plugin-tsc": "2.0.0"
   },
   "devDependencies": {
-    "@types/react": "18.3.28",
+    "@types/react": "19.2.14",
     "eslint": "9.39.3"
   },
   "peerDependencies": {
