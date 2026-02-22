@@ -23,11 +23,11 @@
     "stylelint-prettier": "5.0.3"
   },
   "devDependencies": {
-    "stylelint": "16.26.0"
+    "stylelint": "16.26.1"
   },
   "peerDependencies": {
     "prettier": "3.6.2",
-    "stylelint": "16.26.0"
+    "stylelint": "16.26.1"
   },
   "keywords": [
     "config",
