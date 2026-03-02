@@ -40,7 +40,7 @@
     "@qiwi/multi-semantic-release": "7.1.2",
     "eslint": "9.39.3",
     "husky": "9.1.7",
-    "is-ci": "3.0.1",
+    "is-ci": "4.1.0",
     "npm-run-all2": "6.2.6",
     "prettier": "3.8.1",
     "remark": "15.0.1",
